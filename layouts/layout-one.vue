@@ -5,7 +5,7 @@
     <div
       id="smooth-wrapper"
       class="tp-page-wrapper theme-bg"
-      style="background-image:url(/images/bg/distort-bg.png) "
+      style="background-image:url(/images/bg/distort-bg.png)"
     >
       <div id="smooth-content">
         <main>
