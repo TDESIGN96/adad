@@ -9,7 +9,7 @@
               <div class="col-xl-2 col-lg-2 col-md-5 col-6">
                 <div class="logo">
                   <nuxt-link class="logo-white" href="/">
-                    <img src="/images/logo/logo.png" alt="" style="width: 115px" />
+                    <img src="/images/logo/logo.png" alt="" style="width: 25px" />
                   </nuxt-link>
                   <nuxt-link class="logo-black" href="/">
                     <img
