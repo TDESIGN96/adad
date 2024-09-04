@@ -426,6 +426,8 @@
             .tp-hero-2__exp-link,
             .tp-hero-2__exp-brand-wrap{
                 @include animation-name();
+
+                
             }
             .tp-hero-2__exp-thumb-wrap{
                 @include animation-name(fadeInLeft);
@@ -439,6 +441,7 @@
         }
     }
 }
+
 #pp-nav{
     display: none !important;
 }
@@ -995,7 +998,10 @@
                 color: var(--tp-common-white);
             }
 
-
+            @media #{$xs}{
+                
+                margin-bottom: 40px;
+            }
             &-wrap{
                 @include animation-control(.9s);
             }

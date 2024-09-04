@@ -70,7 +70,7 @@
                 <ul>
                   <li>
                     <nuxt-link href="/about">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات الدعاية والاعلان</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>خدمات الدعاية و الاعلان</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/service">

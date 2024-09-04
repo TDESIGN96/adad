@@ -11,7 +11,7 @@
             <img
               class="coma"
               src="/images/identity/coma.png"
-              alt="" style="position: absolute;top:1.2rem;right:58%; width: 4%;opacity: 0.2;"
+              alt="" style="position: absolute;top:1.2rem;right:56%; width: 4%;opacity: 0.2;"
             />
           </div>
         </div>
