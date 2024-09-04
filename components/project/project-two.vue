@@ -1,13 +1,18 @@
 <template>
   <client-only>
-  <div class="tp-project-3__area p-relative black-bg-3 pt-110">
+  <div class="tp-project-3__area p-relative adad-bg pt-110">
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
           <div
-            class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin"
-          >
-            <h3 class="tp-section-title-3 tp_title_anim">Featured Projects</h3>
+            class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin">
+            <h5 class="tp-section-title-1  tp_title_anim">اكتشف</h5>
+            <h3 class="tp-section-title-3 tp_title_anim header semo">خدماتنا</h3>
+            <img
+              class="coma"
+              src="/images/identity/coma.png"
+              alt="" style="position: absolute;top:1.2rem;right:58%; width: 4%;opacity: 0.2;"
+            />
           </div>
         </div>
       </div>
@@ -25,7 +30,7 @@
                 <img :src="imgSrc" alt="" />
                 <span></span>
                 <div class="tp-portfolio-view-btn-3">
-                  <span>View <br /> Work</span>
+                  <span>اكتشف <br /> المزيد</span>
                 </div>
               </nuxt-link>
             </div>
@@ -42,10 +47,11 @@ const {portfolioPanel} = usePinPanel();
 
 const { moveText, slideRefs } = useMoveText();
 const project_images = [
-  "/images/portfolio/3/portfolio-1.jpg",
-  "/images/portfolio/3/portfolio-2.jpg",
-  "/images/portfolio/3/portfolio-3.jpg",
-  "/images/portfolio/3/portfolio-4.jpg",
+  "/images/portfolio/3/portfolio-1.png",
+  "/images/portfolio/3/portfolio-2.png",
+  "/images/portfolio/3/portfolio-3.png",
+  "/images/portfolio/3/portfolio-4.png",
+  "/images/portfolio/3/portfolio-5.png",
 ];
 
 onMounted(() => {

@@ -1,29 +1,39 @@
 <template>
   <div>
-    <nuxt-layout name="layout-three">
+    <nuxt-layout name="layout-six">
 
-      <!-- hero banner -->
-      <hero-banner-three />
+     <!-- hero banner -->
+      <hero-banner-four />
       <!-- hero banner -->
 
-      <!-- service area -->
-      <service-area-three />
-      <!-- service area -->
+      <!-- marquee area -->
+      <marquee-two />
+      <!-- marquee area -->
 
       <!-- project area -->
       <project-two />
       <!-- project area -->
 
-      <!-- blog area -->
-      <blog-home-three />
-      <!-- blog area -->
+  
+      <!-- about area -->
+      <about-area-two />
+      <!-- about area -->
+   
+        <!-- marquee area -->
+        <marquee-two />
+      <!-- marquee area -->
+      <!-- about fun fact area -->
+      <about-fun-fact />
+      <!-- about fun fact area -->
+
+  
 
     </nuxt-layout>
   </div>
 </template>
 
 <script setup lang="ts">
-useSeoMeta({ title: "Home Three - Diego" });
+useSeoMeta({ title: "منصة اعداد" });
 definePageMeta({ layout: false });
 import { buttonAnimation } from "@/utils/buttonAnimation";
 const {servicesPanel} = usePinPanel();

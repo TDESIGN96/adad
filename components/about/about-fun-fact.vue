@@ -1,17 +1,18 @@
 <template>
-  <div class="ab-funfact__area ab-funfact__plr pt-110 pb-60 z-index-1 p-relative fix cursor-style">
+  <div class="ab-funfact__area ab-funfact__plr pt-200 pb-150 z-index-1 p-relative fix cursor-style">
       <div class="ab-funfact__bg ab-funfact__overlay">
-        <div class="ab-funfact__bg-item" data-speed="1.1" style="background-image: url(/images/funfact/funfact-bg-1-2.jpg);"></div>
+        <div class="ab-funfact__bg-item" data-speed="1.1" style="background-image: url(/images/funfact/funfact-bg-1-2.jpg); box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3)"></div>
       </div>
       <div class="container">
         <div class="row">
-            <div v-for="(item) in counter_data" :key="item.id" class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-40">
-              <div class="ab-funfact__item space-left-1 wow tpfadeUp" data-wow-duration=".9s" :data-wow-delay="item.delay">
-                  <div class="ab-funfact__number">
-                    <counter-item :min="0" :max="item.counter" />
-                  </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-40">
+              <div class="ab-funfact__item space-left-1 wow tpfadeUp" data-wow-duration=".9s" >
+                 
                   <div class="ab-funfact__content">
-                    <h4 class="ab-funfact__title-sm" v-html="item.title"></h4>
+                    <h4 class="ab-funfact__title-sm"> قم بحجز استشارة مجانية </h4>
+                    <div class="ab-hero__btn-box pt-40" style="text-align: center;">
+                      <a class="tp-btn-border-sm" href="/images/cv/mycv.docx" style="background-color: #018EAA;">
+                        احجز الان!</a></div>
                   </div>
               </div>
             </div>

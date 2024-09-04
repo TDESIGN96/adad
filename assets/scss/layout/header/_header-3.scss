@@ -12,7 +12,7 @@
     }
     &__logo{
         & img{
-            width: 115px;
+            max-width: 5vw;
         }
     }
     &__ptlr{
@@ -26,11 +26,13 @@
         @media #{$md}{
             padding-left: 20px;
             padding-right: 20px;
+            
         }
         @media #{$xs}{
             padding-left: 0px;
             padding-right: 0px;
             padding-top: 20px;
+           
         }
         &.slider-pt{
             padding-top: 25px;
@@ -70,6 +72,14 @@
             line-height: 10px;
             border: 1px solid rgba(255, 255, 255, 0.16);
             display: inline-block;
+        }
+    }
+    
+}
+.tp-header-area {
+    &.tp-header-sticky-cloned {
+        .tp-header-3__logo img {
+            width: 10px;
         }
     }
 }

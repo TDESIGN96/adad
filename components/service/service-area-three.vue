@@ -1,7 +1,7 @@
 <template>
   <div id="service" class="tp-service-3__area services-panel-area tp-service-3__overlay-bg black-bg-2 pt-150 pb-125 z-index-1 cursor-style">
 
-    <div class="tp-service-3__circle-img">
+    <!-- <div class="tp-service-3__circle-img">
       <span class="text-img">
       <img src="/images/footer/footer-circle-img.png" alt="">
       </span>
@@ -10,7 +10,7 @@
             <path d="M68.7285 34.1352C48.3941 10.6976 13.8796 0.514191 0 0.514191C93.4783 0.514191 276.081 -0.642708 258.863 0.514191C236.79 1.99739 217.224 6.94161 191.137 34.1352C140.468 93.9609 98.3272 68.2507 68.7285 34.1352Z" fill="currentcolor"/>
           </svg>    
       </div>                 
-    </div>
+    </div> -->
 
     <div class="tp-service-3__shape-1">
       <img src="/images/portfolio/shape-1.png" alt="">

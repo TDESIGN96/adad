@@ -144,13 +144,13 @@
         
     }
     &-title-3{
-        font-weight: 500;
-        font-size: 80px;
+        font-weight: 600;
+        font-size: 60px;
         line-height: 1;
         letter-spacing: -0.02em;
-        color: var(--tp-common-white);
-        font-family: var(--tp-ff-didoneright);
-        margin-bottom: 25px;
+        color: #2B2926;
+        font-family: var(didoneWideMedium);
+        margin-bottom: 80px;
         @media #{$lg}{
             font-size: 70px;
         }
@@ -161,6 +161,10 @@
             font-size: 40px;
         }
         
+        
+    }
+    &-title-1 {
+        color: #2B2926;
     }
     &-title-4{
         font-weight: 500;

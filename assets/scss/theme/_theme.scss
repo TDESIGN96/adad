@@ -121,11 +121,12 @@ html{
 	typography css start 
 ---------------------------------*/
 body {
-	font-family: var(--tp-ff-body);
+	font-family: 'Swissra-Normal';
 	font-size: 14px;
 	font-weight: normal;
 	color: var(--tp-text-body);
 	line-height: 26px;
+	direction: rtl;
 }
 
 #main-scrollbar {

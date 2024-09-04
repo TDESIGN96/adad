@@ -2,7 +2,7 @@
   <footer>
       <div class="tp-footer-3__wrapper tp-footer-3__overlay-bg black-bg-2 p-relative z-index-1 fix tp-mouse-move-btn-section cursor-style">
         <div class="tp-footer-3__shape-1">
-            <img src="/images/footer/footer-shape.png" alt="">
+            <img src="/images/footer/footer-shape-2.png" alt="">
         </div>
         <div class="tp-footer-3__img">
             <img src="/images/footer/footer-3-1.png" alt="">

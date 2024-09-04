@@ -9,10 +9,7 @@
       <div class="tp-offcanvas-wrapper-2">
          <div class="tp-offcanvas-left">
             <div class="tp-offcanvas-left-wrap d-flex justify-content-between align-items-center">
-               <div class="tpoffcanvas__logo">
-                  <img class="logo-white" :src="`${style_2 ? '/images/logo/logo-white.png' : '/images/logo/logo.png'}`" alt="">
-                  <img v-if="!style_2" class="logo-black" src="/images/logo/logo-black.png" alt="">
-               </div>
+               
                <div class="tp-offcanvas-close d-md-none text-end">
                   <button @click="closeOffcanvas" class="tp-offcanvas-close-btn tp-offcanvas-close-btn">
                      <span class="text">

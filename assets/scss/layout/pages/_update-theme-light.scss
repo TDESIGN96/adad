@@ -35,6 +35,9 @@ html[tp-theme='tp-theme-light']{
             border: 1px solid rgba(255, 255, 255, 0.18);
             color: var(--tp-common-white);
         }
+        & .hero-adad {
+            padding-right: 0px !important
+        }
         & .tp-hero-social-bar {
             background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
             background-image: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);

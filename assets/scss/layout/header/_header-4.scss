@@ -22,10 +22,11 @@
     &__menu{
         & > nav{
             & > ul{
-                & > li {
+                & div { 
+                    & > li {
                     display: inline-block;
                     list-style-type: none;
-                    margin: 0px 22px;
+                    margin: 0px 39px;
                     @media #{$xxl}{
                         margin: 0 20px;
                     }
@@ -139,6 +140,7 @@
                     }
                 }
             }
+            }
         }
     }
 }
@@ -170,4 +172,5 @@
         position: relative;
         margin-bottom: 20px;  
     }
+    
 }

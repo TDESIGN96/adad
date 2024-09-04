@@ -37,29 +37,43 @@ $font-url: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+San
     font-weight: 500;
 }
 @font-face {
-    font-family: 'Didone right';
-    src:    url('../fonts/PP-Right-Didone-Light.otf') format('woff');
+    font-family: 'Swissra-Thin';
+    src:    url('../fonts/swissra/Swissra-Thin.otf') format('woff');
     font-style: normal;
     font-display: swap;
     font-weight: 300;
+}
+@font-face {
+    font-family: 'Swissra-Normal';
+    src:    url('../fonts/swissra/Swissra-Normal.otf') format('woff');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Swissra-Medium';
+    src:    url('../fonts/swissra/Swissra-Medium.otf') format('woff');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
 }
 
 // font family
 $font-family: (
     'ff': (
-        'body': "'DM Sans', sans-serif",
-        'heading': "'Didone', sans-serif",
-        'p': "'DM Sans', sans-serif",
-        'dmsans': "'DM Sans', sans-serif",
-        'didone': "'Didone', sans-serif",
-        'didoneWideMedium': "'Didone Wide Medum', serif",
+        'body': "'Swissra-Normal', sans-serif",
+        'heading': "'Swissra-Normal', sans-serif",
+        'p': "'Swissra-Normal', sans-serif",
+        'dmsans': "'Swissra-Normal', sans-serif",
+        'didone': "'Swissra-Normal', sans-serif",
+        'didoneWideMedium': "'Swissra-Medium Wide Medum', serif",
         'didoneCompackDark': "'Didone Compack Dark', serif",
-        'didoneright': "'Didone right', serif",
-        'garamond': "'EB Garamond', serif",
-        'kufam': "'Kufam', sans-serif",
-        'abril': "'Abril Fatface', cursive",
-        'poppins': "'Poppins', sans-serif",
-        'playfair': "'Playfair Display', sans-serif",
+        'didoneright': "'Swissra-Normal', serif",
+        'garamond': "'Swissra-Normal', serif",
+        'kufam': "'Swissra-Normal', sans-serif",
+        'abril': "'Swissra-Normal', cursive",
+        'poppins': "'Swissra-Normal', sans-serif",
+        'playfair': "'Swissra-Normal', sans-serif",
         'fontawesome': '"Font Awesome 6 Pro"',
     )
 );

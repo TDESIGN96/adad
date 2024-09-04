@@ -24,35 +24,24 @@
             </div>
          </div>
          <div class="tp-offcanvas-main-2">
-            <div class="tp-offcanvas-content-2">
-               <h3 class="tp-offcanvas-content-title-2">Hello There!</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
-            </div>
+            
             <div class="tp-main-menu-mobile d-lg-none">
                <nav>
                   <offcanvas-menus />
                </nav>
             </div>
-            <div class="tp-offcanvas-gallery">
-               <div class="row gx-2">
-                  <div v-for="(imgSrc,i) in gallery_images" :key="i" class="col-md-3 col-3">
-                     <div class="tp-offcanvas-gallery-img fix">
-                        <a href="#"><img :src="imgSrc" alt=""></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+           
             <div class="tp-offcanvas-contact-2">
-               <h3 class="tp-offcanvas-contact-title-2">Information</h3>
+               <h3 class="tp-offcanvas-contact-title-2">تواصل معنا</h3>
 
                <ul>
-                  <li><a href="tel:1245654">+ 4 20 7700 1007</a></li>
-                  <li><a href="mailto:hello@diego.com">hello@diego.com</a></li>
-                  <li><a href="#">Avenue de Roma 158b, Lisboa</a></li>
+                  <li><a href="tel:1245654">+964 123 456 789</a></li>
+                  <li><a href="mailto:hello@diego.com">info@adadplatform.com</a></li>
+                  <li><a href="#">Baghdad, Iraq</a></li>
                </ul>
             </div>
             <div class="tp-offcanvas-social-2">
-               <h3 class="tp-offcanvas-contact-title-2">Follow Us</h3>
+               <h3 class="tp-offcanvas-contact-title-2">تابعنا على مواقع التواصل</h3>
                <ul>
                   <li>
                      <a href="#">
@@ -61,12 +50,12 @@
                   </li>
                   <li>
                      <a href="#">
-                        <svg-dribble />
+                        <svg-facebook />
                      </a>
                   </li>
                   <li>
                      <a href="#">
-                        <svg-behance />
+                        <svg-linkedin />
                      </a>
                   </li>
                   <li>

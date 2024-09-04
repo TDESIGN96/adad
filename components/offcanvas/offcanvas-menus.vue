@@ -4,8 +4,8 @@
       <li v-if="item.home_dropdown" :class="`has-dropdown ${isActive ? '' : 'active'}`" @mouseover="isActive = true" @mouseleave="isActive = false">
         <nuxt-link :href="item.link" :class="navTitle === item.title ? 'expanded' : ''">
           {{ item.title }}
-          <button class="dropdown-toggle-btn" @click="toggleMobileMenu(item.title)" :class="navTitle === item.title ? 'dropdown-opened' : ''">
-            <svg-plus/>
+          <button  @click="toggleMobileMenu(item.title)" :class="navTitle === item.title ? 'dropdown-opened' : ''">
+            
           </button>
         </nuxt-link>
         <ul class="tp-submenu submenu" v-if="navTitle === item.title" :style="navTitle === item.title ? 'display: block' : ''">
@@ -17,8 +17,8 @@
       <li v-else-if="item.has_dropdown" :class="`has-dropdown ${isActive ? '' : 'active'}`" @mouseover="isActive = true" @mouseleave="isActive = false">
         <nuxt-link :href="item.link" :class="navTitle === item.title ? 'expanded' : ''">
           {{ item.title }}
-          <button class="dropdown-toggle-btn" @click="toggleMobileMenu(item.title)" :class="navTitle === item.title ? 'dropdown-opened' : ''">
-            <svg-plus/>
+          <button  @click="toggleMobileMenu(item.title)" :class="navTitle === item.title ? 'dropdown-opened' : ''">
+         
           </button>
         </nuxt-link>
         <ul class="tp-submenu submenu" v-if="navTitle === item.title" :style="navTitle === item.title ? 'display: block' : ''">

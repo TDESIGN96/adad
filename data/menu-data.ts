@@ -4,7 +4,7 @@ import type { IMenuDT } from "@/types/menu-d-t";
 const menu_data: IMenuDT[] = [
   {
     id: 1,
-    title: "Home",
+    title: "الرئيسية",
     link: "#",
     home_dropdown: true,
     sub_menus: [
@@ -30,14 +30,14 @@ const menu_data: IMenuDT[] = [
   },
   {
     id: 2,
-    title: "About Me",
+    title: "خدماتنا",
     link: "/about",
     has_dropdown: false,
   },
 
   {
     id: 3,
-    title: "Services",
+    title: "العملاء",
     link: "#",
     has_dropdown: true,
     sub_menus: [
@@ -47,7 +47,7 @@ const menu_data: IMenuDT[] = [
   },
   {
     id: 4,
-    title: "Portfolio",
+    title: "فريق العمل",
     link: "#",
     has_dropdown: true,
     sub_menus: [
@@ -59,7 +59,7 @@ const menu_data: IMenuDT[] = [
   },
   {
     id: 5,
-    title: "Blog",
+    title: "من ",
     link: "#",
     has_dropdown: true,
     sub_menus: [
@@ -71,7 +71,7 @@ const menu_data: IMenuDT[] = [
   },
   {
     id: 6,
-    title: "Contact",
+    title: "تواصل معنا",
     link: "/contact",
     has_dropdown: false,
   },

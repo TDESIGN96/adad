@@ -24,11 +24,11 @@
         } 
     }
     &-height{
-        padding-top: 60px;
-        padding-bottom: 120px;
+        
+        padding-bottom: 20px;
         @media #{$xs}{
-            padding-top: 120px;
-            padding-bottom: 70px;
+            
+            padding-bottom: 0px;
         }
     }
     &-overlay{
@@ -501,13 +501,22 @@
             padding: 5px 0;
         }
         & img{
-            margin-right: 30px;
+           
             display: inline-block;
         }
     }
     &-wrap{
-        background-color: var(--tp-pink-3);
-        padding: 25px 0;
+        background-color: #F3F0EB;
+        padding: 40px 0;
+        padding-bottom: 80px;
+        
+
+        @media #{$xs} {
+            padding: 10px 0;
+            padding-top: 10;
+            padding-bottom: 10px;
+            height: 45px;
+        }
     }
     &-active{
         .swiper-slide{

@@ -19,6 +19,6 @@ const layoutProps = useAttrs();
 const headerStyle = ref<boolean>(layoutProps.style_2 ? true : false);
 
 onMounted(() => {
-  document.body.classList.add('black-bg-3');
+  document.body.classList.add('adad-bg');
 })
 </script>

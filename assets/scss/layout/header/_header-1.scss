@@ -79,7 +79,14 @@
             backdrop-filter: blur(14px);
             z-index: -1;        
         }
+
+        .tp-header-3__logo img {
+            width: 10px;
+        }
+
+        
     }
+    
     &.tp-header-pinned {
         transform: translateY(0%);
         visibility: visible;
@@ -108,8 +115,16 @@
             z-index: -1;        
         }
         &.tp-header-4__plr {
-            padding-top: 0;
+            padding-top: 20px;
+            padding-bottom: 22px;
             @media #{$lg,$md,$xs}{
+                padding-top: 25px;
+                
+            }
+            img {
+                width: 30px;
+            }
+            .tp-header-4__menu > nav > ul div > li > a {
                 padding-top: 15px;
             }
         }
@@ -141,6 +156,9 @@
                 padding: 15px 30px;
             }
         }
+        .tp-header-3__logo img {
+        width: 10px;
+       }
     }
     &.tp-header-pinned {
         transform: translateY(0%);
