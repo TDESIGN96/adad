@@ -42,63 +42,63 @@
                 <h4 class="tp-footer-4__widget-title">الرئيسية</h4>
                 <ul>
                   <li>
-                    <nuxt-link href="/about">
+                    <nuxt-link href="#">
                       <i class="fa-regular fa-arrow-right"></i> الصفحة الرئيسية</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/service">
+                    <nuxt-link href="#">
                       <i class="fa-regular fa-arrow-right"></i> من نحن</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/portfolio">
+                    <nuxt-link href="#">
                       <i class="fa-regular fa-arrow-right"></i>خدماتنا</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/contact">
+                    <nuxt-link href="#">
                       <i class="fa-regular fa-arrow-right"></i>فريق العمل</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/contact">
+                    <nuxt-link href="#">
                       <i class="fa-regular fa-arrow-right"></i>عملائنا</nuxt-link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-md-4 mb-40">
+            <div class="col-xl-3 col-lg-2 col-md-6 mb-40">
               <div class="tp-footer-4__widget footer-col-4-2">
-                <h4 class="tp-footer-4__widget-title">الرئيسية</h4>
+                <h4 class="tp-footer-4__widget-title">الخدمات</h4>
                 <ul>
                   <li>
-                    <nuxt-link href="/about">
-                      <i class="fa-regular fa-arrow-right"></i> الصفحة الرئيسية</nuxt-link>
+                    <nuxt-link href="#">
+                      <i class="fa-regular fa-arrow-right"></i> خدمات الدعاية والاعلان</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/service">
-                      <i class="fa-regular fa-arrow-right"></i> من نحن</nuxt-link>
+                    <nuxt-link href="#">
+                      <i class="fa-regular fa-arrow-right"></i> خدمات القنوات الفضائية</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/portfolio">
-                      <i class="fa-regular fa-arrow-right"></i>خدماتنا</nuxt-link>
+                    <nuxt-link href="#">
+                      <i class="fa-regular fa-arrow-right"></i>خدمات الاستشارة والتطوير</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/contact">
-                      <i class="fa-regular fa-arrow-right"></i>فريق العمل</nuxt-link>
+                    <nuxt-link href="#">
+                      <i class="fa-regular fa-arrow-right"></i>خدمات السوشيل ميديا</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/contact">
-                      <i class="fa-regular fa-arrow-right"></i>عملائنا</nuxt-link>
+                    <nuxt-link href="#">
+                      <i class="fa-regular fa-arrow-right"></i>خدمات الصحافة</nuxt-link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-4 mb-40">
+            <div class="col-xl-2 col-lg-3 col-md-4 mb-40">
               <div class="tp-footer-4__widget footer-col-4-4">
                 <h4 class="tp-footer-4__widget-title">تواصل معنا</h4>
                 <div class="tp-footer-4__widget-mail">
-                  <a href="mailto:hello@youremail.com">info@edadplatform.com</a>
+                  <a href="mailto:info@edadplatform.com">info@edadplatform.com</a>
                 </div>
                 <div class="tp-footer-4__widget-mail">
-                  <a href="tel:+1(789)8001234">+964 123 456 789</a>
+                  <a href="tel:+964123456789">+964 123 456 789</a>
                 </div>
               </div>
             </div>

@@ -1,65 +1,51 @@
 <template>
   <div>
-    <nuxt-layout name="layout-one">
-      
-    <!-- hero banner -->
-    <hero-banner-one />
-    <!-- hero banner -->
+    <nuxt-layout name="layout-six">
 
-    <!-- brand area -->
-    <brand-area-one />
-    <!-- brand area -->
+     <!-- hero banner -->
+      <hero-banner-four />
+      <!-- hero banner -->
 
-    <!-- service area -->
-    <service-area-one />
-    <!-- service area -->
+      <!-- marquee area -->
+      <marquee-two />
+      <!-- marquee area -->
 
-    <!-- marquee area -->
-    <marquee-area />
-    <!-- marquee area -->
+      <!-- project area -->
+      <project-two />
+      <!-- project area -->
 
-    <!-- about area -->
-    <about-area-one />
-    <!-- about area -->
+  
+      <!-- about area -->
+      <about-area-two />
+      <!-- about area -->
+   
+        <!-- marquee area -->
+        <marquee-two />
+      <!-- marquee area -->
+      <!-- about fun fact area -->
+      <about-fun-fact />
+      <!-- about fun fact area -->
 
-    <!-- portfolio area -->
-    <portfolio-area />
-    <!-- portfolio area -->
-
-    <!-- skill area -->
-    <skill-area />
-    <!-- skill area -->
-
-    <!-- award area -->
-    <award-area />
-    <!-- award area -->
-
-    <!-- testimonial area -->
-    <testimonial-one />
-    <!-- testimonial area -->
-
-    <!-- resources-area -->
-    <resources-area />
-    <!-- resources-area -->
+  
 
     </nuxt-layout>
   </div>
 </template>
 
 <script setup lang="ts">
-useSeoMeta({ title: "Home Page - Diego" });
+useSeoMeta({ title: "منصة اعداد" });
 definePageMeta({ layout: false });
-import {animatedHeadline} from '@/utils/animatedHeadline';
-import {buttonAnimation} from '@/utils/buttonAnimation';
+import { buttonAnimation } from "@/utils/buttonAnimation";
+const {servicesPanel} = usePinPanel();
 
 onMounted(() => {
   useSmoothScroll();
-  
+
   setTimeout(() => {
-    animatedHeadline();
+    useCharAnimation();
     useAnimationTitle();
     buttonAnimation();
-    useScrollTextAnimation();
-  },0)
-})
+    servicesPanel();
+  },50)
+});
 </script>

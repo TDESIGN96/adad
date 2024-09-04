@@ -421,7 +421,7 @@
         scrollbar-width: none;
         overscroll-behavior-y: contain;
         border: 1px solid rgba(255, 255, 255, 0.20);
-        background: #1A2813;
+        background: #27899E;
         @include transform(translateX(calc(100% + 80px)));
         @extend %transition;
         overflow-x: hidden;

@@ -4,10 +4,10 @@
       <div class=" hero-adad">
         <div class="row justify-content-center">
             <div class="col-xl-12">
-              <div class="tp-hero-4-thumb-wrapper">
+              <div class="tp-hero-4-thumb-wrapper ">
                   
-                  <div class="tp-hero-4-thumb text-center"  data-speed="auto">
-                    <img src="/images/new-img/hero/hero-4-1.png" alt="">
+                  <div class="tp-hero-4-thumb text-center  d-flex"  data-speed="auto" >
+                    <img src="/images/new-img/hero/hero-4-adad.png" alt="">
                   </div>
               </div>
             </div>

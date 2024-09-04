@@ -12,17 +12,17 @@
                         <ul class="d-flex justify-content-evenly">
                            <div class="col-lg-4">
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">الرئيسية</nuxt-link>
+                                 <nuxt-link href="#">الرئيسية</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">خدماتنا</nuxt-link>
+                                 <nuxt-link href="#">خدماتنا</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">العملاء</nuxt-link>
+                                 <nuxt-link href="#">العملاء</nuxt-link>
 
 
                               </li>
@@ -41,17 +41,17 @@
                            </li>
                            <div class="col-lg-4">
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">فريق العمل</nuxt-link>
+                                 <nuxt-link href="#">فريق العمل</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">من نحن</nuxt-link>
+                                 <nuxt-link href="#">من نحن</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">تواصل معنا</nuxt-link>
+                                 <nuxt-link href="#">تواصل معنا</nuxt-link>
 
 
                               </li>
@@ -113,17 +113,17 @@
                         <ul class="d-flex " style="justify-content: space-around;">
                            <div class="col-lg-4 d-inline-block">
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">الرئيسية</nuxt-link>
+                                 <nuxt-link href="#">الرئيسية</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">خدماتنا</nuxt-link>
+                                 <nuxt-link href="#">خدماتنا</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">العملاء</nuxt-link>
+                                 <nuxt-link href="#">العملاء</nuxt-link>
 
 
                               </li>
@@ -147,17 +147,17 @@
                            </li>
                            <div class="col-lg-4 d-inline-block">
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">فريق العمل</nuxt-link>
+                                 <nuxt-link href="#">فريق العمل</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">من نحن</nuxt-link>
+                                 <nuxt-link href="#">من نحن</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="menu.link">تواصل معنا</nuxt-link>
+                                 <nuxt-link href="#">تواصل معنا</nuxt-link>
 
 
                               </li>

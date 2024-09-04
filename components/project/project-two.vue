@@ -26,7 +26,7 @@
               ref="slideRefs"
               @mousemove="moveText($event, i)"
             >
-              <nuxt-link href="/portfolio-details">
+              <nuxt-link href="#">
                 <img :src="imgSrc" alt="" />
                 <span></span>
                 <div class="tp-portfolio-view-btn-3">
