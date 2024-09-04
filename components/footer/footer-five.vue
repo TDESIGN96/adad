@@ -64,29 +64,29 @@
                 </ul>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-2 col-md-4 mb-40">
+            <div class="col-xl-2 col-lg-2 col-md-4 mb-40">
               <div class="tp-footer-4__widget footer-col-4-2">
-                <h4 class="tp-footer-4__widget-title">خدماتنا</h4>
+                <h4 class="tp-footer-4__widget-title">الرئيسية</h4>
                 <ul>
                   <li>
                     <nuxt-link href="/about">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات الدعاية و الاعلان</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i> الصفحة الرئيسية</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/service">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات القنوات الفضائية</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i> من نحن</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/portfolio">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات الاستشارة والتطوير</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>خدماتنا</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/contact">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات السوشيل ميديا</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>فريق العمل</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/contact">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات الصحافة</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>عملائنا</nuxt-link>
                   </li>
                 </ul>
               </div>
