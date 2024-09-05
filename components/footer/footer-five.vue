@@ -115,7 +115,7 @@
             </div>
             <div class="">
               <div class="tp-copyright-4__text text-left">
-                <span>Tayseer Design | Sikka Tech</span>
+                <span><a href="https://tayseeribrahim.com/" >Tayseer Design </a> | Sikka Tech</span>
               </div>
             </div>
           </div>

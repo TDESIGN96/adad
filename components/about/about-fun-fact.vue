@@ -11,7 +11,7 @@
                   <div class="ab-funfact__content">
                     <h4 class="ab-funfact__title-sm"> قم بحجز استشارة مجانية </h4>
                     <div class="ab-hero__btn-box pt-40" style="text-align: center;">
-                      <a class="tp-btn-border-sm" href="/images/cv/mycv.docx" style="background-color: #018EAA;">
+                      <a class="tp-btn-border-sm" href="tayseeribrahim.com" style="background-color: #018EAA;">
                         احجز الان!</a></div>
                   </div>
               </div>
