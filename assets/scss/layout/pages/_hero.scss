@@ -511,6 +511,7 @@
             }
             @media #{$xs}{
                 padding-top: 10px;
+                padding-bottom:50px;
             }
         }
         &-3{
@@ -1621,7 +1622,7 @@
     &__scrool-down{
         position: absolute;
         bottom: 80px;
-        left: 100px;
+        left: 49%;
         @media #{$xxl}{
             left: 40px;
         }

@@ -384,6 +384,16 @@
     &__title-box {
         position:relative;
     }
+    padding-top: 110px;
+    &__area {
+        padding-top:110px;
+
+        @media #{$xs} {
+            padding-top:50px;
+            
+            }
+    }
+  
     
     
 }

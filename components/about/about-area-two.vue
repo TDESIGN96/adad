@@ -11,7 +11,7 @@
           </div>
           <div class="tp-hero-2__exp-brand-wrap">
             <div
-            class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin">            
+            class="tp-project-3__title-box  text-center portfolio-sec-pin">            
             <h5 class="tp-section-title-1 tp_title_anim">اكتشف</h5>
             <h3 class="tp-section-title-3 tp_title_anim header semo">عملاؤنا</h3>
             <img

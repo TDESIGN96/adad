@@ -18,7 +18,7 @@
     <!-- footer area start -->
     <div class="tp-footer-4__main-wrapper bg-identity p-relative z-index-1 fix"
       style="background-image: url(/images/footer/overly-bg.png);">
-      <div class="tp-footer-4__area pt-80 pb-60">
+      <div class="tp-footer-4__area pt-80 ">
         <div class="tp-footer-4__shape">
           <img src="/images/footer/footer-shape-3.png" alt="">
         </div>

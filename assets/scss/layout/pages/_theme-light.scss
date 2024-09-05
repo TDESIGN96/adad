@@ -879,6 +879,12 @@ html[tp-theme='tp-theme-light']{
         & .tp-section-title-3 {
             color: var(--tp-common-black-5);
         }
+        padding-top:110px;
+        @media #{$xs} {
+            padding-top:500px;
+            
+            }
+
     }
     & .tp-blog-3__area{
         background-color: #F6F9FF; 

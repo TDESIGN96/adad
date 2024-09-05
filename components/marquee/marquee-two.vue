@@ -1,58 +1,14 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<style>
-.scroll-container {
-  height: auto;
-  position: relative;
-}
-
-.carousel-primary,
-.carousel-secondary {
-  top: -23%;
-  left: 100%;
-  width: 300%;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-
-}
-
-.carousel-primary img {
-  width: 100%;
-  margin-left: 20px;
-  padding-bottom: 20px;
-}
-
-.carousel-primary {
-  display: flex;
-  justify-content: space-around;
-  animation: scroll-horizontal 20s linear infinite;
-  animation-play-state: running; /* Initially paused */
-}
-
-.carousel-secondary {
-  animation: scroll-horizontal 20s linear infinite;
-  animation-delay: 10s;
-  animation-play-state: running; /* Initially paused */
-}
-
-@keyframes scroll-horizontal {
-  0% {
-    left: -23%;
-  }
-  100% {
-    left: -100%;
-  }
-}
-</style>
 
 <template>
   <ClientOnly>
     <div class="tp-text-slider-4-area black-bg-6 fix">
       <div class="tp-text-slider-4-wrap">
         <div class="tp-text-slider-4-active">
-          <div class="container">
+          <div class="container-fluid">
             <div class="scroll-container">
-              <div class="carousel-primary">
+              <div class="carousel-primary" ref="carousel">
+                <img src="/images/identity/pattern.png" alt="carousel" />
+                <img src="/images/identity/pattern.png" alt="carousel" />
                 <img src="/images/identity/pattern.png" alt="carousel" />
               </div>
             </div>
@@ -60,11 +16,35 @@
         </div>
       </div>
     </div>
-  </ClientOnly>
+  </ClientOnly> 
 </template>
 
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, nextTick } from 'vue';
+import { onMounted, onBeforeUnmount, ref } from 'vue';
 
+const carousel = ref(null);
+let maxScrollPosition = 100; // Set maximum initial left position
 
+const onScroll = () => {
+  // Get the total scrollable height of the document
+  const scrollTop = window.scrollY;
+  const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+  // Calculate the scroll percentage (0 to 1)
+  const scrollPercentage = scrollTop / documentHeight;
+
+  // Move the carousel based on the scroll percentage (reduce left)
+  const leftPosition = maxScrollPosition - scrollPercentage * maxScrollPosition;
+  carousel.value.style.left = `${leftPosition}%`;
+};
+
+onMounted(() => {
+  // Add scroll event listener
+  window.addEventListener('scroll', onScroll);
+});
+
+onBeforeUnmount(() => {
+  // Remove scroll event listener
+  window.removeEventListener('scroll', onScroll);
+});
 </script>

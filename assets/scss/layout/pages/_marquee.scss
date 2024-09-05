@@ -36,4 +36,31 @@
     overflow: hidden;
 }
 
+.scroll-container {
+    height: auto; /* Set height to full screen */
+    position: relative;
+
+  
+  }
+  
+  .carousel-primary {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Initially hidden */
+    display: flex;
+    justify-content: space-around;
+    width: 300%; /* Width set to allow horizontal scrolling */
+    white-space: nowrap;
+    transition: left 0.2s ease; /* Smooth transition when changing position */
+    @media #{$xs}{
+        width: 200rem; /* Width set to allow horizontal scrolling */    }
+    
+  }
+  
+  .carousel-primary img {
+    width: 100%;
+    margin-left: 0.1rem;
+  }
+
+
 
