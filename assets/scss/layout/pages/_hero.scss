@@ -80,7 +80,7 @@
         font-weight: 700;
         @extend %ff-dmsans;
         line-height: 1;
-        letter-spacing: -0.04em;
+          -0.04em;
         margin-bottom: 25px;
         @media #{$xl}{
             font-size: 90px;
@@ -368,7 +368,7 @@
             font-weight: 400;
             font-size: 280px;
             line-height: .8;
-            letter-spacing: -0.02em;
+              -0.02em;
             color: var(--tp-common-white);
             mix-blend-mode: luminosity;
             opacity: .03;
@@ -456,7 +456,7 @@
         font-family: var(--tp-ff-kufam);
         font-weight: 700;
         font-size: 140px;
-        letter-spacing: -0.06em;
+          -0.06em;
         text-transform: uppercase;
         color: rgba(255, 255, 255, 0.95);
         line-height: 1;
@@ -468,7 +468,7 @@
             font-weight: 500;
             font-size: 13px;
             line-height: 18px;
-            letter-spacing: 0.01em;
+              0.01em;
             text-transform: uppercase;
             color: rgba(255, 255, 255, 0.6);
             font-family: var(--tp-ff-dmsans);
@@ -713,7 +713,7 @@
             & span{
                 font-weight: 700;
                 font-size: 140px;
-                letter-spacing: -0.06em;
+                  -0.06em;
                 text-transform: uppercase;
                 color: rgba(255, 255, 255, 0.95);
                 line-height: 1;
@@ -746,10 +746,10 @@
             }
             & span{
                 &.child-2{
-                    letter-spacing: -0.06em;
+                      -0.06em;
                     font-weight: 700;
                     font-size: 140px;
-                    letter-spacing: -0.06em;
+                      -0.06em;
                     text-transform: uppercase;;   
                     display: inline-block;
                     line-height: 1;
@@ -777,7 +777,7 @@
                     font-weight: 500;
                     font-size: 13px;
                     line-height: 18px;
-                    letter-spacing: 0.01em;
+                      0.01em;
                     text-transform: uppercase;
                     color: rgba(255, 255, 255, 0.6);
                     font-family: var(--tp-ff-dmsans);
@@ -861,7 +861,7 @@
                     font-weight: 600;
                     font-size: 140px;
                     line-height: 1;
-                    letter-spacing: -0.05em;
+                      -0.05em;
                     text-transform: uppercase;
                     color: var(--tp-common-black);
                     font-family: var(--tp-ff-kufam);
@@ -874,7 +874,7 @@
                     font-size: 16px;
                     line-height: 24px;
                     text-align: right;
-                    letter-spacing: -0.02em;
+                      -0.02em;
                     text-transform: uppercase;
                     color: var(--tp-common-white);
                 }
@@ -895,7 +895,7 @@
                 font-weight: 400;
                 font-size: 26px;
                 line-height: 34px;
-                letter-spacing: -0.01em; 
+                  -0.01em; 
                 color: var(--tp-common-black);
                 font-family: var(--tp-ff-kufam);
                 padding-bottom: 5px;
@@ -931,7 +931,7 @@
             font-weight: 400;
             font-size: 17px;
             line-height: 1;
-            letter-spacing: 0.06em;
+              0.06em;
             color: var(--tp-common-white);
             margin-bottom: 15px;
             display: inline-block;
@@ -949,7 +949,7 @@
             font-weight: 600;
             font-size: 70px;
             line-height: 1;
-            letter-spacing: -0.04em;
+              -0.04em;
             text-transform: uppercase;
             color: var(--tp-common-white);
             font-family: var(--tp-ff-kufam);
@@ -964,7 +964,7 @@
             font-weight: 700;
             font-size: 13px;
             line-height: 16px;
-            letter-spacing: 0.02em;
+              0.02em;
             color: var(--tp-pink-2);
             display: inline-block;
             position: relative;
@@ -1106,7 +1106,7 @@
                 font-weight: 600;
                 font-size: 60px;
                 line-height: 1;
-                letter-spacing: -0.04em;
+                  -0.04em;
                 text-transform: uppercase;
                 font-family: var(--tp-ff-kufam);
                 color: rgba(255, 255, 255, 0.2);
@@ -1188,7 +1188,7 @@
                     color: rgba(255, 255, 255, 0.2);
                     margin-left: 5px;
                     font-family: var(--tp-ff-dmsans);
-                    letter-spacing: 1px;
+                      1px;
                     transition: .3s;
                     @media #{$xs}{
                         font-size: 15px;
@@ -1355,7 +1355,7 @@
         &-title{
             font-weight: 600;
             font-size: 30px;
-            letter-spacing: -0.02em;
+              -0.02em;
             text-transform: uppercase;
             color: rgba(255, 255, 255, 0.95);
             margin-bottom: 0;
@@ -1460,7 +1460,7 @@
             & i{
                 font-weight: 500;
                 font-size: 13px;
-                letter-spacing: 0.02em;
+                  0.02em;
                 text-transform: uppercase;
                 color: #FF5746;
                 font-style: normal;
@@ -1524,7 +1524,7 @@
         font-weight: 500;
         font-size: 180px;
         line-height: 1;
-        letter-spacing: -0.03em;
+          -0.03em;
         color: var(--tp-common-white);
         margin-bottom: 25px;
         @media #{$xl}{
@@ -1678,7 +1678,7 @@
         font-weight: 500;
         font-size: 168px;
         line-height: 1;
-        letter-spacing: -0.03em;
+          -0.03em;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);
         margin-bottom: 40px;
@@ -1754,7 +1754,7 @@
             font-family: var(--tp-ff-didoneright);
             font-weight: 500;
             font-size: 145px;
-            letter-spacing: -0.02em;
+              -0.02em;
             text-transform: uppercase;
             color: #1D264C;
             mix-blend-mode: luminosity;

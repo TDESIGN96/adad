@@ -146,7 +146,7 @@
                 font-size: 16px;
                 font-weight: 500;
                 @extend %ff-garamond;
-                letter-spacing: 0.02em;
+                  0.02em;
                 color: rgba($color: $white, $alpha: .6);
                 padding-right: 15px;
                 display: inline-block;
@@ -223,7 +223,7 @@
             font-weight: 400;
             font-size: 280px;
             line-height: .8;
-            letter-spacing: -0.02em;
+              -0.02em;
             color: var(--tp-common-white);
             mix-blend-mode: luminosity;
             opacity: .03;
@@ -443,7 +443,7 @@
             font-weight: 500;
             font-size: 100px;
             line-height: 1;
-            letter-spacing: -0.01em;
+              -0.01em;
             color: var(--tp-common-white);
             font-family: var(--tp-ff-didoneright);
             margin-bottom: 40px;
@@ -484,7 +484,7 @@
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 1;
-                letter-spacing: 0.01em;
+                  0.01em;
                 color: var(--tp-common-white);
                 font-family: var(--tp-ff-didoneright);
                 display: inline-block;
@@ -611,7 +611,7 @@
             font-weight: 300;
             font-size: 48px;
             line-height: 58px;
-            letter-spacing: -0.01em;
+              -0.01em;
             color: var(--tp-common-white);
             font-family: var(--tp-ff-didoneright);
             @media #{$xs}{
@@ -625,7 +625,7 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 14px;
-        letter-spacing: 0.02em;
+          0.02em;
         text-transform: uppercase;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-dmsans);
@@ -652,7 +652,7 @@
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 0px;
-                    letter-spacing: 0.02em;
+                      0.02em;
                     color: var(--tp-common-white);
                     font-family: var(--tp-ff-didoneright);
                     @media #{$xs}{
@@ -719,7 +719,7 @@
         font-weight: 500;
         font-size: 100px;
         line-height: 1;
-        letter-spacing: -0.01em;
+          -0.01em;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);  
         text-transform: capitalize;
@@ -762,7 +762,7 @@
                     font-weight: 500;
                     font-size: 17px;
                     line-height: 42px;
-                    letter-spacing: -0.02em;
+                      -0.02em;
                     text-transform: uppercase;
                     color: var(--tp-ff-didoneright);
                     color: var(--tp-common-white);
@@ -866,7 +866,7 @@
             & a{
                 font-weight: 500;
                 font-size: 14px;
-                letter-spacing: -0.02em;
+                  -0.02em;
                 text-transform: uppercase;
                 color: var(--tp-ff-didoneright);
                 color: var(--tp-common-white);
@@ -891,7 +891,7 @@
                 font-weight: 600;
                 font-size: 44px;
                 line-height: 1;
-                letter-spacing: -0.04em;
+                  -0.04em;
                 text-transform: uppercase;
                 color: var(--tp-common-white);
                 font-family: var(--tp-ff-didoneright);
@@ -917,7 +917,7 @@
             text-transform: uppercase;
             color: var(--tp-common-white);
             background-color: var(--tp-dark-black-4);
-            letter-spacing: 1.2px;
+              1.2px;
         }
     }
     &__tab-thumb{

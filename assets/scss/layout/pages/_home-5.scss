@@ -119,7 +119,7 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 24px;
-                letter-spacing: -0.4px;
+             
                 color: var(--tp-cream-2);
                 font-family: var(--tp-ff-playfair);
                 margin-bottom: 0;
@@ -140,7 +140,7 @@
         font-size: 100px;
         font-weight: 700;
         line-height: 1;
-        letter-spacing: -10.2px;
+      
         color: #fff;
         font-family: var(--tp-ff-poppins);
         transform: translateX(-8px);
@@ -157,11 +157,11 @@
         }
         @media #{$xs}{
             font-size: 60px;
-            letter-spacing: 1px;
+     
         }
         @media #{$sm}{
             font-size: 110px;
-            letter-spacing: 1px;
+        
         }
         & span{
             -webkit-text-stroke: 2px var(--tp-cream-2);
@@ -284,7 +284,7 @@
         font-weight: 400;
         line-height: 1;
         color: #846457;
-        letter-spacing: -3.2px;
+      
         font-family: var(--tp-ff-playfair);
         @media #{$lg}{
             font-size: 50px;
@@ -474,7 +474,7 @@
             font-size: 326px;
             font-weight: 400;
             line-height: 1;
-            letter-spacing: -19.56px;
+          
             text-transform: uppercase;
             color: var(--tp-cream-2);
             font-family: var(--tp-ff-playfair);
@@ -492,7 +492,7 @@
             }
             @media #{$xs}{
                 font-size: 60px;
-                letter-spacing: -2.56px;
+                  -2.56px;
             }
             &-box{
                 @media #{$xs}{
@@ -559,7 +559,7 @@
             font-size: 50px;
             font-weight: 400;
             line-height: 1;
-            letter-spacing: -2px;
+              -2px;
             color: var(--tp-cream-2);
             font-family: var(--tp-ff-playfair);
             margin-bottom: 0;
@@ -628,7 +628,7 @@
             font-size: 50px;
             font-weight: 400;
             line-height: 1.2;
-            letter-spacing: -2px;
+              -2px;
             color: var(--tp-cream-2);
             font-family: var(--tp-ff-playfair);
             margin-bottom: 55px;
@@ -723,7 +723,7 @@
             font-size: 34px;
             font-weight: 400;
             line-height: 1;
-            letter-spacing: -1.36px;
+              -1.36px;
             color: var(--tp-cream-2);
             font-family: var(--tp-ff-playfair);
             position: relative;
@@ -820,7 +820,7 @@
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 1;
-                letter-spacing: -1.08px;
+                  -1.08px;
                 color: var(--tp-cream-2);
                 font-family: var(--tp-ff-playfair);
                 & a{
