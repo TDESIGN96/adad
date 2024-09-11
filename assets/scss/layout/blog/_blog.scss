@@ -257,7 +257,6 @@
         font-weight: 500;
         font-size: 100px;
         line-height: 1;
-          -0.01em;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);
         margin-bottom: 90px;
@@ -472,7 +471,7 @@
                     &-thumb{
                         & img{
                             @include transform(scale(1.1));
-                            
+
                         }
                     }
                 }
@@ -494,7 +493,6 @@
                 font-weight: 700;
                 font-size: 18px;
                 line-height: 1;
-                  -0.01em;
                 color: var(--tp-common-white);
                 font-family: var(--tp-ff-dmsans);
                 margin-bottom: 5px;
@@ -549,12 +547,10 @@
                 background-image: -ms-radial-gradient(#fff, #fff), -ms-radial-gradient(#fff, #fff);
                 background-image: -o-radial-gradient(#fff, #fff), -o-radial-gradient(#fff, #fff);
                 background-image:   radial-gradient(#fff, #fff), radial-gradient(#fff, #fff);
-    
                 background-size: 0% 2px, 0 2px;
                 background-position: 100% 100%, 0 91%;
                 background-repeat: no-repeat;
                 @include transition-mul((background-size 0.4s linear));
-    
                 &:hover{
                     background-size: 0 2px, 100% 2px;
                 }
@@ -709,7 +705,6 @@
             font-weight: 400;
             font-size: 15px;
             line-height: 10px;
-              -0.02em;
             color: var(--tp-common-white);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 20px;

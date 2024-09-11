@@ -51,7 +51,6 @@
         & span{
             font-weight: 500;
             font-size: 12px;
-              0.04em;
             text-transform: uppercase;
             color: #5C5E64;
         }
@@ -84,7 +83,6 @@
             text-align: center;
             text-transform: uppercase;
             color: #fff;
-              0.135em;
             background: var(--tp-theme-1);
             clip-path: polygon(0px 0px, 100% 0px, 92.7% 53.45%, 100% 100%, 0px 100%, 0px 50%);
             width: 130px;
@@ -132,7 +130,6 @@
             &:first-child{
                 font-weight: 500;
                 font-size: 13px;
-                  0.02em;
                 text-transform: uppercase;
                 color: var(--tp-common-white);
             }
@@ -620,7 +617,7 @@
                 padding-right: 20px; 
                 @media #{$xs}{
                     padding-right: 0;
-                }             
+                }
             }
         }
     }
@@ -628,7 +625,6 @@
         font-weight: 500;
         font-size: 44px;
         line-height: 1;
-          -0.01em;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);
         @media #{$xs}{
@@ -801,7 +797,6 @@
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 14px;
-                  0.01em;
                 color: var(--tp-common-white);
                 margin-bottom: 4px;
             }

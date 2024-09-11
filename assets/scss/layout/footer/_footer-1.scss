@@ -126,7 +126,6 @@
         font-weight: 500;
         font-size: 100px;
         line-height: 1.1;
-          -0.02em;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-dmsans);
         margin-bottom: 120px;
@@ -185,8 +184,7 @@
         & span{
             font-weight: 500;
             font-size: 26px;
-              -0.01em;
-            color: var(--tp-common-white); 
+            color: var(--tp-common-white);
             display: block;
             font-family: var(--tp-ff-dmsans);
             transition: .3s;

@@ -10,7 +10,7 @@
         font-weight: 600;
         font-size: 20px;
         line-height: 28px;
-        letter-spacing: 0.02em;
+     
         @include gradient((91deg, #BCFFA4 5.09%, #F59571 98.42%));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -85,7 +85,7 @@
     }
     &-title{
         font-size: 70px;
-        letter-spacing: -0.02em;
+      
         color: var(--tp-common-white);
         font-weight: 700;
         line-height: .94;
@@ -139,7 +139,7 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 1;
-        letter-spacing: 0.1em;
+      
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);
         display: inline-block;
@@ -149,7 +149,7 @@
         font-weight: 600;
         font-size: 60px;
         line-height: 1;
-        letter-spacing: -0.02em;
+     
         color: #2B2926;
         font-family: var(didoneWideMedium);
         margin-bottom: 20px;
@@ -173,7 +173,7 @@
         font-weight: 500;
         font-size: 60px;
         line-height: 1;
-        letter-spacing: -0.01em;
+    
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);
         @media #{$xs}{
@@ -228,7 +228,7 @@
         font-size: 120px;
         font-weight: 500;
         line-height: .9;
-        letter-spacing: -4.8px;
+      
         color: var(--tp-cream-1);
         text-transform: uppercase;
         font-family: var(--tp-ff-poppins);
@@ -243,7 +243,7 @@
             font-size: 140px;
             font-weight: 400;
             line-height: 1;
-            letter-spacing: -8.4px;
+          
             text-transform: uppercase;
             color: var(--tp-cream-2);
             font-family: var(--tp-ff-playfair);
@@ -256,7 +256,7 @@
             }
             @media #{$xs}{
                 font-size: 50px;
-                letter-spacing: -1.4px;
+          
                 line-height: 1.2;
             }
             & span{

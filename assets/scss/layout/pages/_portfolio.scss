@@ -252,7 +252,7 @@
                 font-size: 13px;
                 font-weight: 500;
                 line-height: 18px;
-                  0.28px;
+
                 text-transform: uppercase;
                 width: 90px;
                 height: 90px;
@@ -306,7 +306,7 @@
         color: #FFF;
         @extend %ff-dmsans;
         font-size: 30px;
-          -0.3px;
+
         font-weight: 600
     }
     &-view{
@@ -352,7 +352,7 @@
                 font-size: 13px;
                 font-weight: 500;
                 line-height: 18px;
-                  0.28px;
+
                 text-transform: uppercase;
                 width: 90px;
                 height: 90px;
@@ -433,7 +433,7 @@
         font-size: 100px;
         line-height: 1; 
         text-align: center;
-          -0.03em;
+
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);
         margin-bottom: 0;
@@ -488,7 +488,6 @@
         font-weight: 700;
         font-size: 30px;
         line-height: 20px;
-          -0.02em;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-dmsans);
     }
@@ -534,7 +533,6 @@
             font-weight: 500;
             font-size: 220px;
             line-height: 1;
-              -0.04em;
             text-transform: uppercase;
             color: rgba(255, 255, 255, 0.06);
             mix-blend-mode: luminosity;
@@ -638,7 +636,6 @@
             font-weight: 500;
             font-size: 40px;
             line-height: 1;
-              -0.01em;
             color: var(--tp-common-white);
             font-family: var(--tp-ff-didoneright);
         }
@@ -695,7 +692,6 @@
             font-weight: 500;
             font-size: 70px;
             line-height: 1;
-              -0.01em;
             color: var(--tp-common-white);
             font-family: var(--tp-ff-didoneright);
             margin-right: 15px;
@@ -745,7 +741,7 @@
                 font-family: var(--tp-ff-dmsans);
                 font-weight: 400;
                 font-size: 13px;
-                  0.1em;
+
                 text-transform: uppercase;
                 margin-bottom: 10px;
                 display: inline-block;
@@ -769,7 +765,7 @@
                 font-weight: 500;
                 font-size: 36px;
                 line-height: 1;
-                  -0.02em;
+
                 text-transform: uppercase;
                 color: var(--tp-common-white);
                 font-family: var(--tp-ff-didoneright);
@@ -809,7 +805,7 @@
         font-size: 13px;
         font-weight: 500;
         line-height: 18px;
-          0.28px;
+
         // text-transform: uppercase;
         width: 90px;
         height: 90px;

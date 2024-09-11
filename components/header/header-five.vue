@@ -60,6 +60,8 @@
                      </nav>
                   </div>
                </div>
+
+
                <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
 
                   <div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
@@ -166,39 +168,42 @@
                      </nav>
                   </div>
                </div>
+
+
+
                <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
 
-<div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
+                  <div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
 
 
 
 
 
-   <div class="tp-header-3__btn d-none d-md-block">
-      <nuxt-link class="tp-btn-white" href="/contact">
-         تواصل معنا
-         <span>
-            <svg-pen />
-         </span>
-      </nuxt-link>
-   </div>
-   <div class="tp-header-3__bar">
-      <button @click="handleOffCanvas" class=" tp-menu-bar tp-offcanvas-open-btn">
-         <svg-menu-bar />
-      </button>
-   </div>
-</div>
+                     <div class="tp-header-3__btn d-none d-md-block">
+                        <nuxt-link class="tp-btn-white" href="/contact">
+                           تواصل معنا
+                           <span>
+                              <svg-pen />
+                           </span>
+                        </nuxt-link>
+                     </div>
+                     <div class="tp-header-3__bar">
+                        <button @click="handleOffCanvas" class=" tp-menu-bar tp-offcanvas-open-btn">
+                           <svg-menu-bar />
+                        </button>
+                     </div>
+                  </div>
 
 
-<div class="logo-adad d-flex">
-   <div class="tp-header-3__logo">
-      <nuxt-link class="logo-white" to="/">
-         <img src="/images/logo/logo.png" alt="">
-      </nuxt-link>
+                  <div class="logo-adad d-flex">
+                     <div class="tp-header-3__logo">
+                        <nuxt-link class="logo-white" to="/">
+                           <img src="/images/logo/logo.png" alt="">
+                        </nuxt-link>
 
-   </div>
-</div>
-</div>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </div>

@@ -135,7 +135,6 @@
         text-transform: uppercase;
         color: var(--tp-cream-1);
         font-family: var(--tp-ff-poppins);
-          -0.04em;
         @media #{$xl}{
             font-size: 150px;
         }
@@ -173,7 +172,6 @@
             font-size: 34px;
             font-weight: 500;
             text-transform: uppercase;
-              1px;
             color: var(--tp-pink-3);
             font-family: var(--tp-ff-playfair);
             display: inline-block;
@@ -193,7 +191,6 @@
         & .text-2{
             font-size: 36px;
             font-weight: 500;
-              1px;
             text-transform: uppercase;
             color: var(--tp-cream-1);
             font-family: var(--tp-ff-playfair);
@@ -311,7 +308,6 @@
             font-weight: 400;
             line-height: 1;
             color: #403C38;
-              -1.84px;
             font-family: var(--tp-ff-playfair);
             transform: .3s;
             @media #{$xs}{
@@ -493,7 +489,6 @@
                 line-height: 0;
                 font-size: 70px;
                 font-style: normal;
-                  -3.5px;
                 display: inline-block;
                 & span{
                     transform: translateY(5px);
@@ -677,7 +672,6 @@
         font-size: 70px;
         font-weight: 500;
         line-height: 100px;
-          -2.8px;
         text-transform: uppercase;
         color: var(--tp-cream-1);
         font-family: var(--tp-ff-poppins);
@@ -883,7 +877,6 @@
         font-size: 270px;
         font-weight: 600;
         line-height: 1;
-          -10px;
         text-transform: uppercase;
         color: var(--tp-cream-1);
         font-family: var(--tp-ff-poppins);

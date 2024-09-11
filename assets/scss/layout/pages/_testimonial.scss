@@ -67,7 +67,6 @@
             font-weight: 400;
             font-size: 26px;
             line-height: 1.38;
-              -0.01em;
             color: var(--tp-common-white);
             @media #{$lg}{
                 font-size: 23px;
@@ -155,7 +154,7 @@
         font-weight: 600;
         font-size: 70px;
         line-height: 1;
-          -0.06em;
+
         text-transform: uppercase;
         color: rgba(255, 255, 255, 0.9);
         font-family: var(--tp-ff-kufam);
@@ -219,7 +218,7 @@
             font-weight: 700;
             font-size: 22px;
             line-height: 1;
-              -0.02em;
+      
             color: rgba(255, 255, 255, 0.9);
             font-family: var(--tp-ff-dmsans);
             margin-bottom: 0;
@@ -241,7 +240,7 @@
             font-weight: 400;
             font-size: 34px;
             line-height: 46px;
-              -0.02em;
+   
             color: rgba(255, 255, 255, 0.9); 
             padding-right: 30px;
             margin-bottom: 40px;
