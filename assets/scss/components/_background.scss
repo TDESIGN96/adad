@@ -52,7 +52,13 @@
 .coffe-bg-2{
 	background-color: var(--tp-coffe-2);
 }
-
+.about-bg {
+	background-image: url("/images/new-img/about/Base.jpg");
+	background-size: cover;
+	@media #{$xs}{
+		background-position: right;
+	}
+}
 [data-bg-color = "footer-bg-grey"] {
 	background-color: var(--tp-footer-grey-1);
 }

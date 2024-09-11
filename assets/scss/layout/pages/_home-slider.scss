@@ -506,6 +506,8 @@
     }
 }
 .tp-port-2{
+ 
+  
     &-thumb{
       max-width: 1695px;
       height: 800px;
@@ -547,11 +549,11 @@
           letter-spacing: 1px;
         }
         &-sm{
-            font-size: 70px;
+            font-size: 42px;
             font-weight: 400;
             line-height: 1;
             letter-spacing: -2.8px; 
-            color: var(--tp-cream-2);
+            color: var(--tp-common-white);
             font-family: var(--tp-ff-playfair);
             @media #{$xs}{
               font-size: 60px;
@@ -571,6 +573,18 @@
         &-wrap{
             padding-top: 95px;
             padding-bottom: 95px;
+            .book-btn {
+              justify-content: end;
+            }
+            @media #{$xs}{
+              .book-text {
+                text-align: center;
+              }
+              .book-btn {
+                justify-content: center;
+              }
+              
+            }
         }
     }
     &-text{
@@ -578,7 +592,7 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 26px;
-            color: var(--tp-cream-2);
+            color: var(--tp-common-white);
             font-family: var(--tp-ff-poppins);
             margin-bottom: 0;
         }        

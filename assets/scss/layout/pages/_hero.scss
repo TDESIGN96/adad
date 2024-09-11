@@ -16,8 +16,8 @@
 }
 .tp-hero{
     &-left-wrapper{
-        padding-top: 255px;
-        padding-bottom: 180px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         margin-right: -110px;
         @media #{$lg}{
             padding-top: 220px;
@@ -30,14 +30,18 @@
             padding-top: 150px;
             padding-bottom: 70px;
         }
+    
     }
     &-content{
         padding-right: 80px;
         @media #{$lg}{
+        
             padding-right: 0;
         }
         @media #{$xs}{
+            text-align: center;
             padding-right: 0;
+            margin: auto;
         }
         & > span{
             font-size: 24px;
@@ -62,7 +66,8 @@
             @media #{$xs}{
                 padding-left: 0;
                 font-size: 16px;
-                padding-right: 130px;
+                padding-right: 120px;
+                text-align: right;
                 & br{
                     display: none;
                 }
@@ -102,7 +107,7 @@
     &-thumb{
         & img{
             mix-blend-mode: hard-light;
-            max-width: 100%;
+            max-width: 130%;
         }
 
         &-shape{
@@ -114,8 +119,9 @@
             }
 
             &-1{
-                left: -7%;
-                top: 23%;
+                right: 99%;
+                top: -23%;
+                max-width: 120% !important;
                 @media #{$md}{
                     left: 10%;
                 }
@@ -841,6 +847,7 @@
         &-thumb{
             &-wrap{
                 @include animation-control(.3s);
+                text-align: center;
             }
             &-text{
                 position: absolute;
@@ -889,9 +896,10 @@
                 font-size: 26px;
                 line-height: 34px;
                 letter-spacing: -0.01em; 
-                color: var(--tp-common-white);
+                color: var(--tp-common-black);
                 font-family: var(--tp-ff-kufam);
                 padding-bottom: 5px;
+                text-align: justify;
                 @include animation-control(.6s);
                 @media #{$md}{
                     & br{
@@ -1024,8 +1032,9 @@
         &-thumb-bg{
             & img{
                 @media #{$xs}{
-                    width: 100%;
+                    max-width: 100%;
                     margin-bottom: 40px;
+                    margin-top: 40px;
                 }
             }
         }

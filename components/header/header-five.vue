@@ -12,7 +12,7 @@
                         <ul class="d-flex justify-content-evenly">
                            <div class="col-lg-4">
                               <li class="p-static">
-                                 <nuxt-link href="#">الرئيسية</nuxt-link>
+                                 <nuxt-link href="/">الرئيسية</nuxt-link>
 
 
                               </li>
@@ -46,7 +46,7 @@
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">من نحن</nuxt-link>
+                                 <nuxt-link href="/about-us">من نحن</nuxt-link>
 
 
                               </li>
@@ -69,7 +69,7 @@
 
 
                      <div class="tp-header-3__btn d-none d-md-block">
-                        <nuxt-link class="tp-btn-white" href="/contact">
+                        <nuxt-link class="tp-btn-white" href="#">
                            تواصل معنا
                            <span>
                               <svg-pen />
@@ -152,7 +152,7 @@
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">من نحن</nuxt-link>
+                                 <nuxt-link href="/about-us">من نحن</nuxt-link>
 
 
                               </li>

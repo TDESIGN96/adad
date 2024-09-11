@@ -52,6 +52,8 @@
 	&-blue{ /* for home electronic */
 		background-color: var(--tp-theme-primary);
 	}
+	
+	
 
 	&-border{
 		background-color: transparent;
@@ -832,7 +834,8 @@
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background-color: var(--tp-blue-2);
+		background-color: transparent;
+		border: 3px solid #fff;
 		z-index: -1;
 		@extend %transition;
 		

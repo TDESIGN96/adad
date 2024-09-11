@@ -122,7 +122,9 @@
             }
         }
     }
+    
 }
+
 .tp-section{
     &-subtitle-3{
         font-weight: 500;
@@ -150,7 +152,8 @@
         letter-spacing: -0.02em;
         color: #2B2926;
         font-family: var(didoneWideMedium);
-        margin-bottom: 80px;
+        margin-bottom: 20px;
+        text-align: center;
         @media #{$lg}{
             font-size: 70px;
         }
@@ -160,9 +163,9 @@
         @media #{$xs}{
             font-size: 40px;
         }
-        
-        
+    
     }
+    
     &-title-1 {
         color: #2B2926;
     }
@@ -229,6 +232,7 @@
         color: var(--tp-cream-1);
         text-transform: uppercase;
         font-family: var(--tp-ff-poppins);
+        text-align: center;
         @media #{$md}{
             font-size: 100px;
         }
@@ -243,6 +247,7 @@
             text-transform: uppercase;
             color: var(--tp-cream-2);
             font-family: var(--tp-ff-playfair);
+            
             @media #{$lg}{
                 font-size: 120px;
             }

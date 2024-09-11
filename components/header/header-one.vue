@@ -5,22 +5,16 @@
         <span class="tp-header-border" style="width: 100%"></span>
         <div class="container container-large">
           <div class="tp-header-box p-relative">
-            <div class="row align-items-center">
+            <div class="row align-items-center d-none d-lg-flex">
               <div class="col-xl-2 col-lg-2 col-md-5 col-6">
                 <div class="logo">
                   <nuxt-link class="logo-white" href="/">
                     <img src="/images/logo/logo.png" alt="" style="width: 26px" />
                   </nuxt-link>
-                  <nuxt-link class="logo-black" href="/">
-                    <img
-                      style="width: 115px"
-                      src="/images/logo/logo-black.png"
-                      alt=""
-                    />
-                  </nuxt-link>
+
                 </div>
               </div>
-              <div class="col-xl-6 col-lg-7 d-none d-lg-block">
+              <div class="col-xl-7 col-lg-7 ">
                 <div class="main-menu">
                   <nav class="tp-main-menu-content">
                     <!-- header nav -->
@@ -29,44 +23,63 @@
                   </nav>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-3 col-md-7 col-6">
-                <div class="tp-header-right d-flex align-items-center justify-content-end">
-                  <div class="tp-theme-toggle">
-                    <label
-                      class="tp-theme-toggle-main themepure-theme-toggle"
-                      for="this-s"
-                    >
-                      <span class="tp-theme-toggle-light">
-                        <svg-light-icon />
+
+
+
+
+
+              <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                <div class="tp-header-3__right-action d-flex align-items-center justify-content-end">
+
+                  <div class="tp-header-3__btn d-none d-md-block">
+                    <nuxt-link class="tp-btn-white" href="#">
+                      استشارة مجانية
+                      <span>
+                        <svg-pen />
                       </span>
-                      <input
-                        type="checkbox"
-                        class="themepure-theme-toggle-input"
-                        id="this-s"
-                      />
-                      <i class="tp-theme-toggle-slide"></i>
-                      <span class="tp-theme-toggle-dark">
-                        <svg-dark-icon />
-                      </span>
-                    </label>
+                    </nuxt-link>
                   </div>
-                  <div class="tp-header-cv ml-10 d-none d-md-block">
-                    <a class="tp-header-cv-btn" href="/images/cv/mycv.docx">
-                      <svg-download />
-                    </a>
-                  </div>
-                  <div class="tp-header-hamburger ml-20">
-                    <button
-                      @click="handleOffCanvas"
-                      class="tp-hamburger-btn tp-hamburger-btn-white tp-menu-bar tp-offcanvas-open-btn-2"
-                      type="button"
-                    >
-                      <span></span>
-                    </button>
-                  </div>
+
                 </div>
               </div>
             </div>
+
+            <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
+
+              <div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
+
+
+
+
+
+                <div class="tp-header-3__btn d-none d-md-block">
+                  <nuxt-link class="tp-btn-white" href="#">
+                    تواصل معنا
+                    <span>
+                      <svg-pen />
+                    </span>
+                  </nuxt-link>
+                </div>
+                <div class="tp-header-3__bar">
+                  <button @click="handleOffCanvas" class=" tp-menu-bar tp-offcanvas-open-btn">
+                    <svg-menu-bar />
+                  </button>
+                </div>
+              </div>
+
+
+              <div class="logo-adad d-flex">
+                <div class="tp-header-3__logo">
+                  <nuxt-link class="logo-white" to="/">
+                    <img src="/images/logo/logo.png" alt="">
+                  </nuxt-link>
+
+                </div>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
       </div>
@@ -75,25 +88,20 @@
 
     <!-- header area start -->
     <header>
-      <div id="sticky-header" :class="`tp-header-area tp-header-mob-space tp-header-transparent p-relative tp-int-menu tp-header-sticky-cloned ${isStickyVisible && sticky?'tp-header-pinned':''}`">
+      <div id="sticky-header"
+        :class="`tp-header-area tp-header-mob-space tp-header-transparent p-relative tp-int-menu tp-header-sticky-cloned ${isStickyVisible && sticky?'tp-header-pinned':''}`">
         <div class="container container-large">
           <div class="tp-header-box p-relative">
-            <div class="row align-items-center">
+            <div class="row align-items-center d-none d-lg-flex">
               <div class="col-xl-2 col-lg-2 col-md-5 col-6">
                 <div class="logo">
                   <nuxt-link class="logo-white" href="/">
-                    <img style="width: 115px" src="/images/logo/logo.png" alt="" />
+                    <img src="/images/logo/logo.png" alt="" style="width: 26px" />
                   </nuxt-link>
-                  <nuxt-link class="logo-black" href="/">
-                    <img
-                      style="width: 26px"
-                      src="/images/logo/logo-black.png"
-                      alt=""
-                    />
-                  </nuxt-link>
+
                 </div>
               </div>
-              <div class="col-xl-6 col-lg-7 d-none d-lg-block">
+              <div class="col-xl-7 col-lg-7 ">
                 <div class="main-menu">
                   <nav class="tp-main-menu-content">
                     <!-- header nav -->
@@ -102,44 +110,57 @@
                   </nav>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-3 col-md-7 col-6">
-                <div class="tp-header-right d-flex align-items-center justify-content-end">
-                  <div class="tp-theme-toggle">
-                    <label
-                      for="this-ss" :class="`tp-theme-toggle-main themepure-theme-toggle ${isActive ? 'dark-active' : 'light-active'}`"
-                      @change="toggleTheme"
-                    >
-                      <span class="tp-theme-toggle-light">
-                        <svg-light-icon />
+              <div class="col-xl-3 col-lg-3 col-md-7 col-6">
+                <div class="tp-header-3__right-action d-flex align-items-center justify-content-end">
+
+                  <div class="tp-header-3__btn d-none d-md-block">
+                    <nuxt-link class="tp-btn-white" href="#">
+                      استشارة مجانية
+                      <span>
+                        <svg-pen />
                       </span>
-                      <input
-                        type="checkbox"
-                        class="themepure-theme-toggle-input"
-                        id="this-ss"
-                      />
-                      <i class="tp-theme-toggle-slide"></i>
-                      <span class="tp-theme-toggle-dark">
-                        <svg-dark-icon />
-                      </span>
-                    </label>
+                    </nuxt-link>
                   </div>
-                  <div class="tp-header-cv ml-10 d-none d-md-block">
-                    <a class="tp-header-cv-btn" href="/images/cv/mycv.docx">
-                      <svg-download />
-                    </a>
-                  </div>
-                  <div class="tp-header-hamburger ml-20">
-                    <button
-                      @click="handleOffCanvas"
-                      class="tp-hamburger-btn tp-hamburger-btn-white tp-menu-bar tp-offcanvas-open-btn-2"
-                      type="button"
-                    >
-                      <span></span>
-                    </button>
-                  </div>
+
                 </div>
               </div>
             </div>
+
+
+
+            <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
+
+<div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
+
+
+
+
+
+   <div class="tp-header-3__btn d-none d-md-block">
+      <nuxt-link class="tp-btn-white" href="/contact">
+         تواصل معنا
+         <span>
+            <svg-pen />
+         </span>
+      </nuxt-link>
+   </div>
+   <div class="tp-header-3__bar">
+      <button @click="handleOffCanvas" class=" tp-menu-bar tp-offcanvas-open-btn">
+         <svg-menu-bar />
+      </button>
+   </div>
+</div>
+
+
+<div class="logo-adad d-flex">
+   <div class="tp-header-3__logo">
+      <nuxt-link class="logo-white" to="/">
+         <img src="/images/logo/logo.png" alt="">
+      </nuxt-link>
+
+   </div>
+</div>
+</div>
           </div>
         </div>
       </div>
@@ -148,23 +169,24 @@
   </div>
 
   <!-- offcanvas area start -->
-  <offcanvas-two :isOffCanvasOpen="isOffCanvasOpen" @close-offcanvas="handleOffCanvas"/>
+  <offcanvas-two :isOffCanvasOpen="isOffCanvasOpen" @close-offcanvas="handleOffCanvas" />
   <!-- offcanvas area end -->
 </template>
 
 <script setup lang="ts">
-const {sticky,isStickyVisible} = useSticky();
-const {isActive,toggleTheme,tpInitTheme} = useThemeToggle();
+  const {
+    sticky,
+    isStickyVisible
+  } = useSticky();
+  const {
+    isActive,
+    toggleTheme,
+    tpInitTheme
+  } = useThemeToggle();
 
-const isOffCanvasOpen = ref<boolean>(false);
+  const isOffCanvasOpen = ref < boolean > (false);
 
-const handleOffCanvas = () => {
-  isOffCanvasOpen.value = !isOffCanvasOpen.value;
-};
-
-onMounted(() => {
-    tpInitTheme();
-    const themeInput = document.querySelector('.themepure-theme-toggle-input') as HTMLInputElement;
-    themeInput.addEventListener('change', toggleTheme);
-})
+  const handleOffCanvas = () => {
+    isOffCanvasOpen.value = !isOffCanvasOpen.value;
+  };
 </script>

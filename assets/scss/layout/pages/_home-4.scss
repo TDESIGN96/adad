@@ -426,6 +426,14 @@
         @media #{$xs}{
             padding-bottom: 120px;
         }
+
+        .color-adad {
+            color:#27899E;
+        }
+        .tp-section-title-1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
     }
     &-title-box{
         padding-left: 50px;
@@ -433,11 +441,11 @@
             padding-left: 0;
         }
         & p{
-            font-size: 26px;
+            font-size: 24px;
             font-weight: 400;
-            line-height: 36px;
+            line-height: 40px;
             margin-bottom: 0;
-            color: var(--tp-cream-1);
+            color: var(--tp-common-black);
             font-family: var(--tp-ff-playfair);
             @media #{$xs}{
                 font-size: 22px;
@@ -450,9 +458,8 @@
         }
     }
     &-border{
-        padding-bottom: 70px;
-        margin-bottom: 100px;
-        border-bottom: 1px solid rgba(183, 171, 152, 0.14);
+        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
     &-funfact{
         & .border-line{

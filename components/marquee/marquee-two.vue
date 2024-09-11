@@ -1,4 +1,3 @@
-
 <template>
   <ClientOnly>
     <div class="tp-text-slider-4-area black-bg-6 fix">

@@ -42,11 +42,11 @@
                 <h4 class="tp-footer-4__widget-title">الرئيسية</h4>
                 <ul>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/">
                       <i class="fa-regular fa-arrow-right"></i> الصفحة الرئيسية</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/about-us">
                       <i class="fa-regular fa-arrow-right"></i> من نحن</nuxt-link>
                   </li>
                   <li>

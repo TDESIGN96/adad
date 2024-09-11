@@ -1,32 +1,36 @@
 <template>
   <div>
-    <nuxt-layout name="layout-six">
+    <nuxt-layout name="layout-one">
 
      <!-- hero banner -->
-      <hero-banner-four />
+      <hero-banner-five />
       <!-- hero banner -->
 
       <!-- marquee area -->
-      <marquee-two />
-      <!-- marquee area -->
-
-      <!-- project area -->
-      <project-two />
-      <!-- project area -->
-
-  
-      <!-- about area -->
-      <about-area-two />
-      <!-- about area -->
-   
-        <!-- marquee area -->
         <marquee-two />
       <!-- marquee area -->
-      <!-- about fun fact area -->
-      <about-fun-fact />
-      <!-- about fun fact area -->
-
   
+       <!-- about area -->
+       <about-area-six />
+        <!-- about area -->
+
+         <!-- marquee area -->
+         <marquee-two />
+        <!-- marquee area -->
+
+         <!-- about area -->
+       <about-area-three />
+        <!-- about area -->
+
+       <testimonial-three />
+   <!-- about area -->
+   <about-area-seven />
+        <!-- about area -->
+       
+         <!-- about area -->
+   <hero-banner-one />
+        <!-- about area -->
+       
 
     </nuxt-layout>
   </div>

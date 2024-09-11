@@ -1,6 +1,6 @@
 <template>
   <client-only>
-  <div class="tp-project-3__area p-relative adad-bg ">
+  <div class="tp-project-3__area p-relative adad-bg pt-110">
     <div class="container">
       <div class="row">
         <div class="col-xl-12">

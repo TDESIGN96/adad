@@ -4,14 +4,12 @@
     <header-one />
     <div
       id="smooth-wrapper"
-      class="tp-page-wrapper theme-bg"
-      style="background-image:url(/images/bg/distort-bg.png)"
-    >
+      class="tp-page-wrapper adad-bg">
       <div id="smooth-content">
         <main>
           <slot />
         </main>
-        <footer-one/>
+        <footer-five/>
       </div>
     </div>
   </div>

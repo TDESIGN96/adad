@@ -5,8 +5,8 @@ const menu_data: IMenuDT[] = [
   {
     id: 1,
     title: "الرئيسية",
-    link: "#",
-    home_dropdown: true,
+    link: "/",
+    home_dropdown: false,
     
    
   },
@@ -33,8 +33,8 @@ const menu_data: IMenuDT[] = [
   },
   {
     id: 5,
-    title: "من ",
-    link: "#",
+    title: "من نحن ",
+    link: "/about-us",
     has_dropdown: false,
    
   },
