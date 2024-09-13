@@ -1,39 +1,32 @@
 <template>
   <div>
-    <nuxt-layout name="layout-six">
+    <nuxt-layout name="layout-one">
 
      <!-- hero banner -->
-      <hero-banner-four />
+      <hero-banner-six />
       <!-- hero banner -->
 
       <!-- marquee area -->
-      <marquee-two />
-      <!-- marquee area -->
-
-      <!-- project area -->
-      <project-two />
-      <!-- project area -->
-
-  
-      <!-- about area -->
-      <about-area-two />
-      <!-- about area -->
-   
-        <!-- marquee area -->
         <marquee-two />
       <!-- marquee area -->
-      <!-- about fun fact area -->
-      <about-fun-fact />
-      <!-- about fun fact area -->
-
   
+       <!-- about area -->
+       <footer-social />
+        <!-- about area -->
+
+   <!-- about area -->
+   <contact-form />
+        <!-- about area -->
+      <!-- marquee area -->
+      <marquee-two />
+      <!-- marquee area -->
+        
 
     </nuxt-layout>
   </div>
 </template>
 
 <script setup lang="ts">
-
 useSeoMeta({ title: "منصة اعداد" });
 definePageMeta({ layout: false });
 import { buttonAnimation } from "@/utils/buttonAnimation";

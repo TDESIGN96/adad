@@ -48,7 +48,7 @@
         top: 50%;
         right: 0;
 		font-family: var(--tp-ff-fontawesome);
-		color: var(--tp-common-white);
+		color: var(--tp-common-black);
 		font-weight: 500;
         pointer-events: none;
         -webkit-transition: all 0.15s ease-in-out;
@@ -117,7 +117,7 @@
 
     & .list{
         width: 100%;
-        background-color: #434966;
+        background-color: #838383;
         border-radius: 5px;
         box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
         box-sizing: border-box;

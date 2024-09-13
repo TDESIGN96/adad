@@ -71,6 +71,7 @@
     }
     &__item{
         position: relative;
+        z-index: 100;
         &.space-left{
             &-1{
              

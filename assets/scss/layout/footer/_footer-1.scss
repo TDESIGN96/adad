@@ -94,21 +94,25 @@
         }
         &:hover{
             padding: 20px 20px 18px;
+            
             & .tp-footer-anim-border{
                 border-color: 1px solid var(--tp-green-2);
             }
             &::after{
-                background-color: var(--tp-green-2);
+                background-color: #27899E;
                 visibility: visible;
                 opacity: 1;
                 height: 100%;
             }
             & .tp-footer-social-text{
+              
+                
+
                 & span.child-1{
-                    color: var(--tp-common-black);
+                    color: var(--tp-common-white);
                 }
                 & span.child-2{
-                    color:rgba(18, 18, 18, 0.5);
+                    color:var(--tp-common-white);
                 }
             }
 
@@ -116,6 +120,7 @@
                 & span{
                     background-color: var(--tp-common-black);
                     color: var(--tp-common-white);
+                    
                 }
             }
         }
@@ -184,28 +189,29 @@
         & span{
             font-weight: 500;
             font-size: 26px;
-            color: var(--tp-common-white);
+            color: var(--tp-common-black);
             display: block;
             font-family: var(--tp-ff-dmsans);
             transition: .3s;
+            
             &.child-2{
                 font-weight: 500;
                 font-size: 14px;
-                color: rgba(255, 255, 255, 0.6);
+                color: rgba(48, 48, 48, 0.6);
                 font-family: var(--tp-ff-dmsans);
             }
         }
     }
     &-social-icon{
         & span{
-            height: 46px;
-            width: 46px;
+            height: 60px;
+            width: 60px;
             display: inline-block;
             border-radius: 50%;
             text-align: center;
             line-height: 43px;
-            background-color: var(--tp-common-white);
-            color: var(--tp-common-black);
+            background-color: #27899E;
+            color: var(--tp-common-white);
             transition: .3s;
             &:hover{
                 background-color: var(--tp-common-black);
@@ -277,9 +283,13 @@
             }
             &:hover{
                 border-color: var(--tp-common-white);
+             
+ 
+             
                 &::after {
                     background-color: transparent;
                     background-color: var(--tp-common-white);
+                    
                 }
                 & .tp-footer-social-icon span {
                     background-color: var(--tp-common-black);

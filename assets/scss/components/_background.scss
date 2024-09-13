@@ -3,7 +3,9 @@
 /*----------------------------------------*/
 /*  2.6 Background
 /*----------------------------------------*/
-
+.color-adad {
+	color:#27899E;
+}
 .grey-bg {
 	background-color: var(--tp-grey-1);
 }
@@ -54,6 +56,22 @@
 }
 .about-bg {
 	background-image: url("/images/new-img/about/Base.jpg");
+	background-size: cover;
+	@media #{$xs}{
+		background-position: right;
+	}
+}
+
+.contact-bg {
+	background-image: url("/images/new-img/big-img/contact-bg.png");
+	background-size: cover;
+	@media #{$xs}{
+		background-position: right;
+	}
+}
+
+.team-bg {
+	background-image: url("/images/new-img/big-img/team.png");
 	background-size: cover;
 	@media #{$xs}{
 		background-position: right;

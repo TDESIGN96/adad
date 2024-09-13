@@ -554,8 +554,9 @@
 	text-transform: uppercase;
 	display: inline-block;
 	overflow: hidden;
-	color: var(--tp-common-white);
-	background-color: var(--tp-pink-2);
+	color: #27899E;
+	background-color: transparent;
+	border: 1px solid #27899E;
 	font-family: var(--tp-ff-dmsans);
 	transition: 0;
 	
@@ -583,7 +584,7 @@
 	}
 
 	&:hover{
-		color: var(--tp-common-white);
+		color: #27899E;
 		& span{
 			&[data-hover]{
 				transform: translateY(-100%);
@@ -661,7 +662,7 @@
 	text-transform: capitalize;
 	display: inline-block;
 	overflow: hidden;
-	color: var(--tp-dark-black-2);
+	color: var(--tp-common-white);
 	background-color: transparent;
 	font-family: var(--tp-ff-dmsans);
 	transition: .4s;
@@ -670,7 +671,7 @@
 	& span{
 		margin-left: 30px;
 		& svg{
-			color: var(--tp-common-black);
+			color: var(--tp-common-white);
 		}
 		&.text{
 			position: relative;
@@ -696,7 +697,7 @@
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background-color:  var(--tp-common-white);
+		background-color:  #27899E;
 		z-index: -1;
 		@extend %transition;
 		
@@ -705,7 +706,7 @@
 
 	&:hover{
 		background-color: transparent;
-		color: var(--tp-common-white);
+		color: #27899E;
 
 		&::after{
 			width: 40px;

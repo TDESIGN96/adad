@@ -41,7 +41,7 @@
                            </li>
                            <div class="col-lg-4">
                               <li class="p-static">
-                                 <nuxt-link href="#">فريق العمل</nuxt-link>
+                                 <nuxt-link href="/team">فريق العمل</nuxt-link>
 
 
                               </li>
@@ -51,7 +51,7 @@
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">تواصل معنا</nuxt-link>
+                                 <nuxt-link href="/contact-us">تواصل معنا</nuxt-link>
 
 
                               </li>
@@ -115,7 +115,7 @@
                         <ul class="d-flex " style="justify-content: space-around;">
                            <div class="col-lg-4 d-inline-block">
                               <li class="p-static">
-                                 <nuxt-link href="#">الرئيسية</nuxt-link>
+                                 <nuxt-link href="/">الرئيسية</nuxt-link>
 
 
                               </li>
@@ -149,7 +149,7 @@
                            </li>
                            <div class="col-lg-4 d-inline-block">
                               <li class="p-static">
-                                 <nuxt-link href="#">فريق العمل</nuxt-link>
+                                 <nuxt-link href="/team">فريق العمل</nuxt-link>
 
 
                               </li>
@@ -159,7 +159,7 @@
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">تواصل معنا</nuxt-link>
+                                 <nuxt-link href="/contact-us">تواصل معنا</nuxt-link>
 
 
                               </li>

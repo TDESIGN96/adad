@@ -27,7 +27,7 @@ const menu_data: IMenuDT[] = [
   {
     id: 4,
     title: "فريق العمل",
-    link: "#",
+    link: "/team",
     has_dropdown: false,
    
   },
@@ -41,7 +41,7 @@ const menu_data: IMenuDT[] = [
   {
     id: 6,
     title: "تواصل معنا",
-    link: "#",
+    link: "/contact-us",
     has_dropdown: false,
   },
 ];

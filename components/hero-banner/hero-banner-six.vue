@@ -1,5 +1,5 @@
 <template>
-  <div class="tp-hero-5-area team-bg p-relative">
+  <div class="tp-hero-5-area contact-bg p-relative">
       <div class="container container-1760">
         <div class="tp-hero-5-bdr-left tp-hero-5-ptb">
             <div class="row">
@@ -8,12 +8,12 @@
               </div>
               <div class="col-xxl-9">
                   <div class="tp-hero-5-title-box z-index-5 mb-120">
-                    <h4 class="tp-hero-5-title tp-split-in-right text-black">فريق عملنا</h4>
+                    <h4 class="tp-hero-5-title tp-split-in-right text-black">تواصل معنا</h4>
                     <div class="blog-list__title-box">
                   <div class="blog-list__text-sm mt-20">
                      <span class="category text-black">الرئيسية</span>
                      <i class="fa-regular text-black fa-angle-left"></i>
-                     <span class="text-black">فريق العمل</span>
+                     <span class="text-black">من نحن</span>
                   </div>
                   <h4 class="blog-list__title tp-char-animation"></h4>
                </div>
