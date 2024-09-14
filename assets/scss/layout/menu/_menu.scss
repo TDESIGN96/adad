@@ -104,7 +104,7 @@
                     display: inline-block;
                     font-size: 16px;
                     font-weight: 500;
-                    color: var(--tp-common-white);
+                    color: var(--tp-common-black);
                     padding: 23px 0;
                     position: relative;
                     &::after{
@@ -123,7 +123,7 @@
                 }
                 &:hover{
                     & > a{
-                        color: var(--tp-common-white);
+                        color: #fff;
                         &::after{
                             width: 100%;
                             opacity: 1;

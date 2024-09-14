@@ -50,15 +50,15 @@
                       <i class="fa-regular fa-arrow-right"></i> من نحن</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/services">
                       <i class="fa-regular fa-arrow-right"></i>خدماتنا</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/team">
                       <i class="fa-regular fa-arrow-right"></i>فريق العمل</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/clients">
                       <i class="fa-regular fa-arrow-right"></i>عملائنا</nuxt-link>
                   </li>
                 </ul>
@@ -69,23 +69,23 @@
                 <h4 class="tp-footer-4__widget-title">الخدمات</h4>
                 <ul>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/services">
                       <i class="fa-regular fa-arrow-right"></i> خدمات الدعاية والاعلان</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/services">
                       <i class="fa-regular fa-arrow-right"></i> خدمات القنوات الفضائية</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/services">
                       <i class="fa-regular fa-arrow-right"></i>خدمات الاستشارة والتطوير</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/services">
                       <i class="fa-regular fa-arrow-right"></i>خدمات السوشيل ميديا</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="#">
+                    <nuxt-link href="/services">
                       <i class="fa-regular fa-arrow-right"></i>خدمات الصحافة</nuxt-link>
                   </li>
                 </ul>

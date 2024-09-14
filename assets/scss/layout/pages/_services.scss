@@ -715,9 +715,10 @@
     }
     &__title{
         font-weight: 500;
-        font-size: 100px;
+        font-size: 26px;
         line-height: 1;
-        color: var(--tp-common-white);
+        text-align: center;
+        color: var(--tp-common-black);
         font-family: var(--tp-ff-didoneright);  
         text-transform: capitalize;
         @media #{$md}{
@@ -921,7 +922,13 @@
         overflow: hidden;
         position: relative;
         width: auto;
-        height: 100%;
+        margin-top: 30px;
+       
+
+        img {
+            height: 400px;
+            border-radius: 20px;
+        }
     }
 }
 

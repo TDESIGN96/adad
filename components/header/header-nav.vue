@@ -1,6 +1,6 @@
 <template>
-  <ul>
-    <li v-for="(menu) in menu_data" :key="menu.id" :class="`${menu.sub_menus?'has-dropdown':''} ${menu.home_dropdown ? 'p-static' : ''}`">
+  <ul >
+    <li  v-for="(menu) in menu_data" :key="menu.id" :class="`${menu.sub_menus?'has-dropdown':''} ${menu.home_dropdown ? 'p-static' : ''}`">
         <nuxt-link :href="menu.link">{{menu.title}}</nuxt-link>
         <div v-if="menu.home_dropdown" class="tp-submenu submenu has-homemenu">
           <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-lg-4">

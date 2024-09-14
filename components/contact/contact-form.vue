@@ -1,5 +1,5 @@
 <template>
-  <div class="ab-funfact__area ab-funfact__plr pt-200  z-index-1 p-relative fix cursor-style">
+  <div id="contact-form" class="ab-funfact__area ab-funfact__plr pt-200  z-index-1 p-relative fix cursor-style">
       <div class="ab-funfact__bg ab-funfact__overlay">
         <div class="ab-funfact__bg-item" data-speed="1.1" style="background-image: url(/images/funfact/funfact-bg-1-2.jpg); box-shadow: inset 0 0 0 2000px rgba(16, 70, 78, 70%)"></div>
       </div>

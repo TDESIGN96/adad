@@ -3,21 +3,20 @@
     <nuxt-layout name="layout-one">
 
      <!-- hero banner -->
-      <hero-banner-six />
-      <!-- hero banner -->
+      <hero-banner-seven />
+     <!-- hero banner -->
+
+       <!-- marquee area -->
+       <marquee-two />
+      <!-- marquee area -->
+      <!-- service details area -->
+     <service-details-area />
+      <!-- service details area -->
+
 
       <!-- marquee area -->
-        <marquee-two />
+      <marquee-two />
       <!-- marquee area -->
-  
-       <!-- about area -->
-       <footer-social />
-        <!-- about area -->
-
-   <!-- about area -->
-   <contact-form />
-        <!-- about area -->
-
         
 
     </nuxt-layout>

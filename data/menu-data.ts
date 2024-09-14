@@ -13,14 +13,14 @@ const menu_data: IMenuDT[] = [
   {
     id: 2,
     title: "خدماتنا",
-    link: "#",
+    link: "/services",
     has_dropdown: false,
   },
 
   {
     id: 3,
     title: "العملاء",
-    link: "#",
+    link: "/clients",
     has_dropdown: false,
   
   },

@@ -54,6 +54,22 @@
 .coffe-bg-2{
 	background-color: var(--tp-coffe-2);
 }
+
+.services-bg {
+	background-image: url("/images/new-img/big-img/services.png");
+	background-size: cover;
+	@media #{$xs}{
+		background-position: right;
+	}
+}
+
+.clients-bg {
+	background-image: url("/images/new-img/big-img/clients.png");
+	background-size: cover;
+	@media #{$xs}{
+		background-position: right;
+	}
+}
 .about-bg {
 	background-image: url("/images/new-img/about/Base.jpg");
 	background-size: cover;

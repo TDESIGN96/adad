@@ -17,12 +17,12 @@
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">خدماتنا</nuxt-link>
+                                 <nuxt-link href="/services">خدماتنا</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">العملاء</nuxt-link>
+                                 <nuxt-link href="/clients">العملاء</nuxt-link>
 
 
                               </li>
@@ -120,12 +120,12 @@
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">خدماتنا</nuxt-link>
+                                 <nuxt-link href="/services">خدماتنا</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="#">العملاء</nuxt-link>
+                                 <nuxt-link href="/clients">العملاء</nuxt-link>
 
 
                               </li>
