@@ -40,6 +40,17 @@
                     </nuxt-link>
                   </div>
 
+                  <form>
+      <select id="locale-select" v-model="$i18n.locale">
+        <option value="ar">عربي</option>
+        <option value="en">
+          
+          
+          English</option>
+     
+      </select>
+    </form>
+
                 </div>
               </div>
             </div>

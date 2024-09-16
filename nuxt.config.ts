@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     "@/assets/css/font-awesome-pro.css",
     "@/assets/css/nice-select.css",
     "@/assets/scss/main.scss",
+    "@/assets/css/style-en.scss",
   ],
 
   

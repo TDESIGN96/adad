@@ -1,5 +1,6 @@
 <template>
   <client-only>
+    
   <div class="tp-project-3__area p-relative adad-bg pt-110">
     <div class="container">
       <div class="row">
@@ -7,7 +8,7 @@
           <div
             class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin">
             <h5 class="tp-section-title-1  tp_title_anim">اكتشف</h5>
-            <h3 class="tp-section-title-3 tp_title_anim header semo">خدماتنا</h3>
+            <h3 class="tp-section-title-3 tp_title_anim header semo"> {{ $t("services") }}</h3>
             <img
               class="coma"
               src="/images/identity/coma.png"

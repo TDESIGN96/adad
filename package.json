@@ -30,6 +30,7 @@
     "yup": "^1.4.0"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.29"
+    "@types/jquery": "^3.5.29",
+    "vue-i18n": "^10.0.1"
   }
 }

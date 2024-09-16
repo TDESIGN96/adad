@@ -1,0 +1,29 @@
+.lang-ar body {
+    direction: rtl;
+  }
+
+.lang-en body {
+    direction: ltr;
+
+    .carousel-primary {
+      direction: rtl;
+    }
+    .tp-hero-5-area {
+      transform: scaleX(-1);
+      .tp-hero-5-ptb {
+        transform: scaleX(-1);
+      }
+
+    }
+    
+    .tp-hero-thumb-shape-1 {
+      left: 56%;
+      right: 0;
+    }
+    .tp-project-4-thumb {
+      text-align: right;
+    }
+    .fa-angle-left:before {
+      content: "\f105";
+    }
+  }
