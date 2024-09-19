@@ -9,20 +9,20 @@
         </div>
         <div class="tp-project-4-wrapper">
             <div class="tp-project-4-inner-wrap">
-              <div v-for="(item) in project_data" :key="item.id" class="tp-project-4-item">
+              <div v-for="(member) in teamMembers " :key="member.id" class="tp-project-4-item">
                   <div class="tp-project-4-thumb not-hide-cursor" data-cursor="View<br>Demo">
                     <nuxt-link class="cursor-hide" href="#">
-                        <img :src="item.img" alt="">
+                        <img :src="member.img" alt="">
                     </nuxt-link>
                   </div>
                   <!-- <img src="/images/identity/coma.png" class="team-coma"> -->
                   <div class="tp-project-4-content d-flex w-100">
                     
                     <h4 class="tp-project-4-title">
-                      <nuxt-link href="#">{{item.title}}</nuxt-link>
+                      <span href="#">{{ $t(member.title) }}</span>
                     </h4>
                     <h4 class="tp-project-4-thumb">
-                      <nuxt-link href="#">{{item.position}}</nuxt-link>
+                      <span href="#">{{ $t(member.position) }}</span>
                     </h4>
                   </div>
               </div>
@@ -34,31 +34,35 @@
 
 <script setup lang="ts">
 
-const project_data = [
+const teamMembers  = [
   {
     id:1,
     img: '/images/users/team-1.png',
-    title: `احمد العامري`,
-    position: `المؤسس`,
+    title: `team.members.1.name`,
+    position: `team.members.1.position`,
   },
   {
     id:2,
     img: '/images/users/team-2.png',
-    title: `ابراهيم مثنى`,
-    position: `المدير التنفيذي`,
+    title: `team.members.2.name`,
+    position: `team.members.2.position`,
   },
   {
     id:3,
     img: '/images/users/team-3.png',
-    title: `عادل الجاف`,
-    position: `شريك مؤسس`,
+    title: `team.members.3.name`,
+    position: `team.members.3.position`,
   },
   {
     id:4,
     img: '/images/users/team-4.png',
-    title: `زينب عادل`,
-    position: `معدة برامج `,
+    title: `team.members.4.name`,
+    position: `team.members.4.position`,
   },
 
-]
+];
+
+
+
+
 </script>

@@ -8,7 +8,10 @@
               </div>
               <div class="col-xxl-9">
                   <div class="tp-hero-5-title-box z-index-5 mb-120">
-                    <h4 class="tp-hero-5-title tp-split-in-right">من <br> نحن</h4>
+                    <h4 class="tp-hero-5-title tp-split-in-right">
+                      <span v-html="$t('AboutUsbig')"></span>
+                    
+                    </h4>
            
                    
                   </div>

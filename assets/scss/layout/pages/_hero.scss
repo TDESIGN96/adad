@@ -680,7 +680,6 @@
     &__bg{
         background-repeat: no-repeat;
         background-size: cover;
-        height: 60vh;
         overflow: hidden;
         @media #{$lg,$md,$xs}{
             height: 100%;
@@ -870,7 +869,6 @@
                 }
             }
             &-main{
-                margin-bottom: 60px;
                 @media #{$xl}{
                     margin-bottom: 60px;
                 }

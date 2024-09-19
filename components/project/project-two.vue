@@ -7,8 +7,8 @@
         <div class="col-xl-12">
           <div
             class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin">
-            <h5 class="tp-section-title-1  tp_title_anim">اكتشف</h5>
-            <h3 class="tp-section-title-3 tp_title_anim header semo"> {{ $t("services") }}</h3>
+            <h5 class="tp-section-title-1  tp_title_anim">{{ $t("Discover") }}</h5>
+            <h3 class="tp-section-title-3 tp_title_anim header semo"> {{ $t("Sevices") }}</h3>
             <img
               class="coma"
               src="/images/identity/coma.png"
@@ -31,7 +31,7 @@
                 <img :src="imgSrc" alt="" />
                 <span></span>
                 <div class="tp-portfolio-view-btn-3">
-                  <span>اكتشف <br /> المزيد</span>
+                  <span>{{ $t("Discover") }} <br />  {{ $t("More") }}</span>
                 </div>
               </nuxt-link>
             </div>

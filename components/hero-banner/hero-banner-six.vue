@@ -8,12 +8,19 @@
               </div>
               <div class="col-xxl-9">
                   <div class="tp-hero-5-title-box z-index-5 mb-120">
-                    <h4 class="tp-hero-5-title tp-split-in-right text-black">تواصل معنا</h4>
+                    <h4 class="tp-hero-5-title tp-split-in-right text-black"> <span v-html="$t('ContactUsbig')"></span></h4>
                     <div class="blog-list__title-box">
                   <div class="blog-list__text-sm mt-20">
-                     <span class="category text-black">الرئيسية</span>
+                     <span class="category text-black">{{ $t("Home") }}</span>
                      <i class="fa-regular text-black fa-angle-left"></i>
-                     <span class="text-black">من نحن</span>
+                     <span class="text-black"
+                     
+                     
+                     >
+                     
+                     
+                     {{ $t("ContactUs") }}                    
+                    </span>
                   </div>
                   <h4 class="blog-list__title tp-char-animation"></h4>
                </div>

@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-form" class="ab-funfact__area ab-funfact__plr pt-200  z-index-1 p-relative fix cursor-style">
+  <div id="contact-form" class="ab-funfact__area ab-funfact__plr pt-150 pb-100 z-index-1 p-relative fix cursor-style">
       <div class="ab-funfact__bg ab-funfact__overlay">
         <div class="ab-funfact__bg-item" data-speed="1.1" style="background-image: url(/images/funfact/funfact-bg-1-2.jpg); box-shadow: inset 0 0 0 2000px rgba(16, 70, 78, 70%)"></div>
       </div>
@@ -10,11 +10,13 @@
                  
                   <div class="ab-funfact__content">
                     
-                    <h4 class="ab-funfact__title-sm"> قم بحجز استشارة مجانية </h4>
+                    <h4 class="ab-funfact__title-sm"> 
+                      
+                      {{ $t("Book") }}
+                    </h4>
                     <div class="tp-port-2-text col-12 text-center m-auto pt-20">
                         <p class="pb-70">
-                          مهمتنا هي اعداد نص رصين مبتكر ومؤثر ويتفاعل مع الجماهير ويرفع معايير الإنتاج ويسهم في نجاح عملائنا
-                        </p>
+                          {{ $t("BookDesc") }}                        </p>
                         
                     </div>
                     

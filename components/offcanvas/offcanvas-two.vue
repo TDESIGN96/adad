@@ -29,10 +29,23 @@
                <nav>
                   <offcanvas-menus />
                </nav>
+               <select id="locale-select" v-model="$i18n.locale">
+        <option value="ar">عربي</option>
+        <option value="en">
+          
+          
+          English</option>
+     
+      </select>
             </div>
            
             <div class="tp-offcanvas-contact-2">
-               <h3 class="tp-offcanvas-contact-title-2">تواصل معنا</h3>
+               <h3 class="tp-offcanvas-contact-title-2">
+                  
+                  
+                  {{ $t("ContactUs") }} 
+
+               </h3>
 
                <ul>
                   <li><a href="tel:1245654">+964 123 456 789</a></li>

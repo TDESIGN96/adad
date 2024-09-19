@@ -53,7 +53,7 @@
               <span class="focus-border"></span>
           </div>
         </div>
-        <div class="col-xl-6">
+        <div class="col-xl-6 p-0">
           <div class="tp-contact-2__btn text-center ">
               <div class="parallax-wrap d-inline-block">
                 <div class="parallax-element">

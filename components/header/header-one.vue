@@ -33,8 +33,8 @@
 
                   <div class="tp-header-3__btn d-none d-md-block">
                     <nuxt-link class="tp-btn-white" href="/contact-us#contact-form">
-                      استشارة مجانية
-                      <span>
+                      {{ $t("Consultingbtn") }}
+                                            <span>
                         <svg-pen />
                       </span>
                     </nuxt-link>
@@ -65,8 +65,8 @@
 
                 <div class="tp-header-3__btn d-none d-md-block">
                   <nuxt-link class="tp-btn-white" href="#">
-                    تواصل معنا
-                    <span>
+                    {{ $t("Consultingbtn") }}
+                                        <span>
                       <svg-pen />
                     </span>
                   </nuxt-link>
@@ -126,8 +126,8 @@
 
                   <div class="tp-header-3__btn d-none d-md-block">
                     <nuxt-link class="tp-btn-white" href="/contact-us#contact-form">
-                      استشارة مجانية
-                      <span>
+                      {{ $t("Consultingbtn") }}
+                                            <span>
                         <svg-pen />
                       </span>
                     </nuxt-link>
@@ -149,8 +149,8 @@
 
    <div class="tp-header-3__btn d-none d-md-block">
       <nuxt-link class="tp-btn-white" href="/contact">
-         تواصل معنا
-         <span>
+        {{ $t("ContactUs") }}
+                 <span>
             <svg-pen />
          </span>
       </nuxt-link>

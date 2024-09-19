@@ -3,7 +3,7 @@
     <template v-for="(item, index) in menu_data" :key="index">
       <li v-if="item.home_dropdown" :class="`has-dropdown ${isActive ? '' : 'active'}`" @mouseover="isActive = true" @mouseleave="isActive = false">
         <nuxt-link :href="item.link" :class="navTitle === item.title ? 'expanded' : ''">
-          {{ item.title }}
+          {{ $t(item.title) }}
           <button  @click="toggleMobileMenu(item.title)" :class="navTitle === item.title ? 'dropdown-opened' : ''">
             
           </button>
@@ -16,7 +16,7 @@
       </li>
       <li v-else-if="item.has_dropdown" :class="`has-dropdown ${isActive ? '' : 'active'}`" @mouseover="isActive = true" @mouseleave="isActive = false">
         <nuxt-link :href="item.link" :class="navTitle === item.title ? 'expanded' : ''">
-          {{ item.title }}
+          {{ $t(item.title) }}
           <button  @click="toggleMobileMenu(item.title)" :class="navTitle === item.title ? 'dropdown-opened' : ''">
          
           </button>
@@ -28,7 +28,7 @@
         </ul>
       </li>
       <li v-else :class="`${isActive ? '' : 'active'}`" @mouseover="isActive = true" @mouseleave="isActive = false">
-        <nuxt-link :href="item.link">{{ item.title }}</nuxt-link>
+        <nuxt-link :href="item.link"> {{ $t(item.title) }}</nuxt-link>
       </li>
     </template>
   </ul>

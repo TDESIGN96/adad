@@ -1,15 +1,22 @@
 <template>
-  <div class="tp-about-4-area  pt-150 pb-200">
+  <div class="tp-about-4-area  pt-50 pb-200">
       <div class="container container-1320">
         <div class="tp-about-4-border">
             <div class="row justify-content-center">
              
               <div class="col-xl-7 col-lg-8 col-md-8">
                   <div class="tp-about-4-title-box">
-                    <h2 class="tp-section-title-3 color-adad mb-20 tp_text_invert" ref="invertRef">المهمة</h2>
+                    <h2 class="tp-section-title-3 color-adad mb-20 tp_text_invert" ref="invertRef"> {{ $t("Mission") }}  </h2>
                     <p class="tp_text_invert">
-                      مهمتــنــا هــي اعـــداد نــــص رصيـــن مبتكر ومؤثر ويتفاعـــل مـع الجماهيــر ويـرفــع معايــيـر الإنتـــاج ويسهــم فــي نجــاح عملائنا
+
+
+
+                      
+                      
+                      {{ $t("MissionDesc") }}                   
+                   
                     </p>
+
                   </div>
               </div>
             

@@ -30,23 +30,24 @@
                     <div class="tp-hero-2__exp-info">
                       
                      
-                      <p class="child-1 ">تخصصت في كتابة  نص متميز ومؤثر لمختلف الاشكال الاعلامية بما في ذلك برامج التوك شو وبرامج القنوات الفضائية والدعايات والمسلسلات والافلام. بفريق من المعدين ذوي الخبرة العالية، نحقق النصوص التي تجذب الجماهير في انحاء العالم العربي</p>
+                      <p class="child-1 "
+                      
+                      
+                      
+                      
+                      >
+                      
+                      
+                      {{ $t("AboutDesc") }}                    
+                    
+                    
+                    </p>
                      
                     </div>
                 </div>
               </div>
           </div>
-          <div class="tp-hero-2__exp-brand-wrap">
-              <span class="tp-hero-2__exp-brand-title">
-                
-              </span>
-              <div class="row row-cols-lg-4 row-cols-md-2 ">
-                <div v-for="(b,i) in brands" :key="i" class="col-xl mb-10">
-                    
-                </div>
-              </div>
-
-          </div>
+          
         </div>
     </div>
   </div>

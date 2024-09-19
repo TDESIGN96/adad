@@ -12,17 +12,17 @@
                         <ul class="d-flex justify-content-evenly">
                            <div class="col-lg-4">
                               <li class="p-static">
-                                 <nuxt-link href="/">الرئيسية</nuxt-link>
+                                 <nuxt-link href="/">{{ $t("Home") }}  </nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/services">خدماتنا</nuxt-link>
+                                 <nuxt-link href="/services">{{ $t("Sevices") }}  </nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/clients">العملاء</nuxt-link>
+                                 <nuxt-link href="/clients">{{ $t("Clients") }}  </nuxt-link>
 
 
                               </li>
@@ -41,17 +41,17 @@
                            </li>
                            <div class="col-lg-4">
                               <li class="p-static">
-                                 <nuxt-link href="/team">فريق العمل</nuxt-link>
+                                 <nuxt-link href="/team">{{ $t("Team") }}  </nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/about-us">من نحن</nuxt-link>
+                                 <nuxt-link href="/about-us">{{ $t("AboutUs") }}  </nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/contact-us">تواصل معنا</nuxt-link>
+                                 <nuxt-link href="/contact-us">{{ $t("ContactUs") }}  </nuxt-link>
 
 
                               </li>
@@ -115,17 +115,17 @@
                         <ul class="d-flex " style="justify-content: space-around;">
                            <div class="col-lg-4 d-inline-block">
                               <li class="p-static">
-                                 <nuxt-link href="/">الرئيسية</nuxt-link>
+                                 <nuxt-link href="/">{{ $t("Home") }} </nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/services">خدماتنا</nuxt-link>
+                                 <nuxt-link href="/services">{{ $t("Sevices") }}</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/clients">العملاء</nuxt-link>
+                                 <nuxt-link href="/clients">{{ $t("Clients") }} </nuxt-link>
 
 
                               </li>
@@ -149,17 +149,17 @@
                            </li>
                            <div class="col-lg-4 d-inline-block">
                               <li class="p-static">
-                                 <nuxt-link href="/team">فريق العمل</nuxt-link>
+                                 <nuxt-link href="/team">{{ $t("Team") }}</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/about-us">من نحن</nuxt-link>
+                                 <nuxt-link href="/about-us">{{ $t("AboutUs") }}</nuxt-link>
 
 
                               </li>
                               <li class="p-static">
-                                 <nuxt-link href="/contact-us">تواصل معنا</nuxt-link>
+                                 <nuxt-link href="/contact-us">{{ $t("ContactUs") }}</nuxt-link>
 
 
                               </li>
@@ -181,8 +181,7 @@
 
                      <div class="tp-header-3__btn d-none d-md-block">
                         <nuxt-link class="tp-btn-white" href="/contact">
-                           تواصل معنا
-                           <span>
+                           {{ $t("ContactUs") }}                           <span>
                               <svg-pen />
                            </span>
                         </nuxt-link>

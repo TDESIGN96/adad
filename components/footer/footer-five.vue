@@ -39,61 +39,65 @@
             </div>
             <div class="col-xl-2 col-lg-2 col-md-4 mb-40">
               <div class="tp-footer-4__widget footer-col-4-2">
-                <h4 class="tp-footer-4__widget-title">الرئيسية</h4>
+                <h4 class="tp-footer-4__widget-title">{{ $t("Home") }}</h4>
                 <ul>
                   <li>
                     <nuxt-link href="/">
-                      <i class="fa-regular fa-arrow-right"></i> الصفحة الرئيسية</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i> {{ $t("Home") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/about-us">
-                      <i class="fa-regular fa-arrow-right"></i> من نحن</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i> {{ $t("AboutUs") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/services">
-                      <i class="fa-regular fa-arrow-right"></i>خدماتنا</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>{{ $t("Sevices") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/team">
-                      <i class="fa-regular fa-arrow-right"></i>فريق العمل</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>{{ $t("Team") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/clients">
-                      <i class="fa-regular fa-arrow-right"></i>عملائنا</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>{{ $t("Clients") }}</nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link href="/clients">
+                      <i class="fa-regular fa-arrow-right"></i>{{ $t("ContactUs") }}</nuxt-link>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="col-xl-3 col-lg-2 col-md-6 mb-40">
               <div class="tp-footer-4__widget footer-col-4-2">
-                <h4 class="tp-footer-4__widget-title">الخدمات</h4>
+                <h4 class="tp-footer-4__widget-title">{{ $t("Sevices") }}</h4>
                 <ul>
                   <li>
                     <nuxt-link href="/services">
-                      <i class="fa-regular fa-arrow-right"></i> خدمات الدعاية والاعلان</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i> {{ $t("Advertising") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/services">
-                      <i class="fa-regular fa-arrow-right"></i> خدمات القنوات الفضائية</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i> {{ $t("TV") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/services">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات الاستشارة والتطوير</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>{{ $t("Consultation") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/services">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات السوشيل ميديا</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>{{ $t("SM") }}</nuxt-link>
                   </li>
                   <li>
                     <nuxt-link href="/services">
-                      <i class="fa-regular fa-arrow-right"></i>خدمات الصحافة</nuxt-link>
+                      <i class="fa-regular fa-arrow-right"></i>{{ $t("Journalism") }}</nuxt-link>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 mb-40">
               <div class="tp-footer-4__widget footer-col-4-4">
-                <h4 class="tp-footer-4__widget-title">تواصل معنا</h4>
+                <h4 class="tp-footer-4__widget-title">{{ $t("ContactUs") }}</h4>
                 <div class="tp-footer-4__widget-mail">
                   <a href="mailto:info@edadplatform.com">info@edadplatform.com</a>
                 </div>
@@ -101,7 +105,17 @@
                   <a href="tel:+964123456789">+964 123 456 789</a>
                 </div>
               </div>
+              <select id="locale-select" v-model="$i18n.locale">
+        <option value="ar">عربي</option>
+        <option value="en">
+          
+          
+          English</option>
+     
+      </select>
             </div>
+
+            
           </div>
         </div>
       </div>
@@ -110,7 +124,7 @@
 
             <div class=" d-flex  ">
               <div class="tp-copyright-4__text text-left">
-                <span>@ {{new Date().getFullYear()}}. All Rights Reserved.</span>
+                <span>@ {{new Date().getFullYear()}}. {{ $t("Rights") }}.</span>
               </div>
             </div>
             <div class="">

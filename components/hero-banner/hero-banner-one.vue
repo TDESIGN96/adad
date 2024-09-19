@@ -13,15 +13,22 @@
               <div class="tp-hero-left-wrapper">
                   <div class="tp-hero-content tp_text_anim p-relative z-index-1">
                     <h3 class="tp-section-title-1 cd-headline clip tp_title_anim color-adad">
-                      المسؤولية الاجتماعية
+
+
+                      {{ $t("Social") }}
+
                         
                         
                     </h3>
 
                     <p class="text-black">
                       
-                      المساهمة في الارتقاء بواقع اعـــداد المسلسلات العراقية بشكل خاص يواكب الواقع في الشارع العراقي
+                      {{ $t("SocialDesc") }}
+
+
+                      
                     </p>
+
 
                     <div class="tp-hero-btn wrap ">
                         <div class="tp-hover-btn-wrapper tp-btn-bounce">

@@ -58,39 +58,44 @@
 .services-bg {
 	background-image: url("/images/new-img/big-img/services.png");
 	background-size: cover;
+	background-position: right;
 	@media #{$xs}{
-		background-position: right;
+		background-position: -520px;
 	}
 }
 
 .clients-bg {
 	background-image: url("/images/new-img/big-img/clients.png");
 	background-size: cover;
+	background-position: right;
 	@media #{$xs}{
-		background-position: right;
+		background-position: -370px;
 	}
 }
 .about-bg {
 	background-image: url("/images/new-img/about/Base.jpg");
 	background-size: cover;
+	background-position: right;
 	@media #{$xs}{
-		background-position: right;
+		background-position: -320px;
 	}
 }
 
 .contact-bg {
 	background-image: url("/images/new-img/big-img/contact-bg.png");
 	background-size: cover;
+	background-position: right;
 	@media #{$xs}{
-		background-position: right;
+		background-position: -370px;
 	}
 }
 
 .team-bg {
 	background-image: url("/images/new-img/big-img/team.png");
 	background-size: cover;
+	background-position: right;
 	@media #{$xs}{
-		background-position: right;
+		background-position: -470px;
 	}
 }
 [data-bg-color = "footer-bg-grey"] {

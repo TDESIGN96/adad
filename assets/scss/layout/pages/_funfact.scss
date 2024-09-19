@@ -99,9 +99,16 @@
     &__plr{
         padding-left: 85px;
         padding-right: 85px;
+      
+
         @media #{$lg,$md,$xs}{
             padding-left: 15px;
             padding-right: 15px;
+        }
+
+        @media #{$xs}{
+            padding-left: 0px;
+            padding-right: 0px;
         }
     }
 }

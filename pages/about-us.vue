@@ -22,13 +22,16 @@
        <about-area-three />
         <!-- about area -->
 
+            <!-- about area -->
        <testimonial-three />
-   <!-- about area -->
-   <about-area-seven />
+        <!-- about area -->
+
+         <!-- about area -->
+       <about-area-four />
         <!-- about area -->
        
          <!-- about area -->
-   <hero-banner-one />
+        <hero-banner-one />
         <!-- about area -->
        
 

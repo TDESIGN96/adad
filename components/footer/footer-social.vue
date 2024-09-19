@@ -1,5 +1,6 @@
 <template>
   <template v-if="!style_2">
+    <div class="container">
     <div class="row mb-100 mt-100 gx-50">
     <div
       v-for="item in footer_social"
@@ -23,6 +24,7 @@
       </a>
     </div>
   </div>
+</div>
   </template>
 
   <div v-if="style_2" class="tp-footer-4__social">

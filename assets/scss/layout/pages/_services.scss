@@ -713,6 +713,9 @@
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);  
     }
+    &__area {
+        padding-top:230px
+    }
     &__title{
         font-weight: 500;
         font-size: 26px;
@@ -725,7 +728,7 @@
             font-size: 85px;
         }
         @media #{$xs}{
-            font-size: 58px;
+            font-size: 30px;
         }
     }
     &__banner-text{
@@ -838,10 +841,10 @@
     }
     &__space{
         @media #{$md}{
-            padding-top: 160px;
+            padding-top: 120px;
         }
         @media #{$xs}{
-            padding-top: 130px;
+            padding-top: 100px;
         }
     }
     &__sm-thumb{
@@ -921,13 +924,18 @@
     &__tab-thumb{
         overflow: hidden;
         position: relative;
-        width: auto;
         margin-top: 30px;
-       
+        border-radius: 20px;
 
         img {
-            height: 400px;
+            height: 350px;
             border-radius: 20px;
+
+            @media #{$xs}{
+                max-width: 150%;
+                height: 180px;
+            }
+           
         }
     }
 }

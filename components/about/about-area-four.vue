@@ -1,28 +1,39 @@
 <template>
-  <div class="tp-about-5-area coffe-bg pt-140 pb-120">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12">
-          <div class="tp-about-5-title-wrap text-xl-end text-center">
-            <div class="tp-about-5-title-box text-center p-relative">
-              <span class="tp-about-5-subtitle tp-split-text tp-split-in-right">
-                GET TO <br /> X <br />KNOW ME</span>
-              <h2 class="tp-section-title-5 fs-140 tp-split-text tp-split-in-right">
-                Fashion<span class="d-none d-md-inline-block">
-                  <img src="/images/home-05/about/about-img.jpg" alt=""/>
-                </span>
-                <br />for passion and <em>life style</em>
-              </h2>
-              <p>
-                Working as a creative & outsource your fashion design project &
-                get it quickly done and delivered remotely online.
-              </p>
+  <div class="tp-about-4-area  pt-100 pb-200">
+      <div class="container container-1320">
+        <div class="tp-about-4-border">
+            <div class="row justify-content-center">
+             
+              <div class="col-xl-7 col-lg-8 col-md-8">
+                  <div class="tp-about-4-title-box">
+                    <h2 class="tp-section-title-3 color-adad mb-20 tp_text_invert" ref="invertRef"> {{ $t("Vision") }}  </h2>
+                    <p class="tp_text_invert">
+
+
+
+                      
+                      
+                      {{ $t("VisionDesc") }}                   
+                   
+                    </p>
+
+                  </div>
+              </div>
+            
             </div>
-          </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+              <div class="tp-about-4-thumb text-center">
+                  <img class="rounded-pill" src="/images/new-img/about/vision.png" alt="" data-speed="1.1" data-lag="0">
+              </div>
+            </div>
+            
+            
         </div>
       </div>
-    </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>

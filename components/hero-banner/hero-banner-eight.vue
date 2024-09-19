@@ -12,15 +12,15 @@
                     >
                     
                     
-                    {{ $t("services") }}    
+                    {{ $t("Sevices") }}    
 
                       
                     </h4>
                     <div class="blog-list__title-box">
                   <div class="blog-list__text-sm mt-20">
-                     <span class="category text-white">الرئيسية</span>
+                     <span class="category text-white">{{ $t("Home") }}</span>
                      <i class="fa-regular text-white fa-angle-left"></i>
-                     <span class="text-white">العملاء</span>
+                     <span class="text-white">{{ $t("Sevices") }}</span>
                   </div>
                   <h4 class="blog-list__title tp-char-animation"></h4>
                </div>

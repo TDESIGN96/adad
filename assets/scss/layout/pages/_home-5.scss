@@ -157,17 +157,12 @@
         }
         @media #{$xs}{
             font-size: 60px;
-     
         }
         @media #{$sm}{
             font-size: 110px;
         
         }
-        & span{
-            -webkit-text-stroke: 2px var(--tp-cream-2);
-            text-stroke: #000;
-            color: transparent;
-        }
+
         &-box{
             padding-left: 140px;
             @media #{$x4l}{
