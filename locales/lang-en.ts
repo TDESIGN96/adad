@@ -16,7 +16,9 @@ export default {
   Follow : "Follow Us On Social Media",
   More : "المزيد",
   Consultingbtn : "Free Consulting",
-
+  Teambig : "Team",
+  AboutUsbig : "About Us",
+  ContactUsbig : "Contact <br> Us",
 
   menu: {
     home: "Home",

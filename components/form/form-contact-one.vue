@@ -1,7 +1,12 @@
 <template>
   <form action="#" class="form-consulting">
     
-    <h4 class="tp-footer-4__widget-title pb-40 pt-40 text-center">استمارة الاستشارة</h4>
+    <h4 class="tp-footer-4__widget-title pb-40 pt-40 text-center">
+      
+      
+      {{ $t("Consulting") }}   
+
+    </h4>
 
     <div class="row">
         <div class="col-xl-6 col-lg-4 mb-50">

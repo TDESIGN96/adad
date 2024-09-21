@@ -33,7 +33,7 @@
     }
     &__content{
         & p{
-            font-weight: 400;
+            font-weight: 300;
             font-size: 18px;
             line-height: 26px;
             color: #27899E;
@@ -56,7 +56,7 @@
             text-align: center;
             color: #27899E;
             margin-right: 7px;
-          
+
             & span{
                 & svg{
                     width: 18px;
@@ -79,12 +79,13 @@
             margin-bottom: 30px;
         }
         & ul{
+            
             & li{
                 list-style-type: none;
                 margin-bottom: 10px;
-                text-align: center;
+               
                 & a{
-                    font-weight: 400;
+                    font-weight: 300;
                     font-size: 17px;
                     line-height: 1;
                     color: #27899E;
@@ -115,7 +116,7 @@
         }
         &-address{
             & a{
-                font-weight: 400;
+                font-weight: 300;
                 font-size: 17px;
                 line-height: 28px;
                 color: #27899E;

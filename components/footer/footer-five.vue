@@ -104,8 +104,7 @@
                 <div class="tp-footer-4__widget-mail">
                   <a href="tel:+964123456789">+964 123 456 789</a>
                 </div>
-              </div>
-              <select id="locale-select" v-model="$i18n.locale">
+                <select id="locale-select" v-model="$i18n.locale">
         <option value="ar">عربي</option>
         <option value="en">
           
@@ -113,6 +112,8 @@
           English</option>
      
       </select>
+              </div>
+              
             </div>
 
             

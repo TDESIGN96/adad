@@ -40,7 +40,7 @@
         }
         @media #{$xs}{
             text-align: center;
-            padding-right: 0;
+            
             margin: auto;
         }
         & > span{
@@ -61,12 +61,12 @@
             font-size: 20px;
             line-height: 1.4;
             color: rgba($color: $white, $alpha: .7);
-            padding-left: 90px;
+            padding-left: 30px;
             margin-bottom: 33px;
             @media #{$xs}{
                 padding-left: 0;
                 font-size: 16px;
-                padding-right: 120px;
+                padding-right: 40px;
                 text-align: right;
                 & br{
                     display: none;
@@ -895,6 +895,7 @@
                 }
                 @media #{$xs}{
                     font-size: 20px;
+                    text-align: center;
                     & br{
                         display: none;
                     }

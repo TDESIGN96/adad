@@ -1,7 +1,7 @@
 <template>
   <template v-if="!style_2">
     <div class="container">
-    <div class="row mb-100 mt-100 gx-50">
+    <div class="row mb-100 mt-100">
     <div
       v-for="item in footer_social"
       :key="item.id"

@@ -28,8 +28,7 @@
             <div class="tp-main-menu-mobile d-lg-none">
                <nav>
                   <offcanvas-menus />
-               </nav>
-               <select id="locale-select" v-model="$i18n.locale">
+                  <select id="locale-select" v-model="$i18n.locale">
         <option value="ar">عربي</option>
         <option value="en">
           
@@ -37,6 +36,8 @@
           English</option>
      
       </select>
+               </nav>
+               
             </div>
            
             <div class="tp-offcanvas-contact-2">
@@ -54,7 +55,13 @@
                </ul>
             </div>
             <div class="tp-offcanvas-social-2">
-               <h3 class="tp-offcanvas-contact-title-2">تابعنا على مواقع التواصل</h3>
+               <h3 class="tp-offcanvas-contact-title-2">
+
+                  {{ $t("Follow") }} 
+                  
+
+
+               </h3>
                <ul>
                   <li>
                      <a href="#">
