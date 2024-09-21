@@ -71,7 +71,7 @@
             <div class="col-xl-3 col-lg-2 col-md-6 mb-40">
               <div class="tp-footer-4__widget footer-col-4-2">
                 <h4 class="tp-footer-4__widget-title">{{ $t("Sevices") }}</h4>
-                <ul>
+                <ul style="padding-left: 0px;">
                   <li>
                     <nuxt-link href="/services">
                       <i class="fa-regular fa-arrow-right"></i> {{ $t("Advertising") }}</nuxt-link>

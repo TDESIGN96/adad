@@ -82,7 +82,7 @@
               <div class="logo-adad d-flex">
                 <div class="tp-header-3__logo">
                   <nuxt-link class="logo-white" to="/">
-                    <img src="/images/logo/logo.png" alt="">
+                    <img src="/images/logo/logo-green.png" alt="">
                   </nuxt-link>
 
                 </div>
@@ -107,7 +107,7 @@
               <div class="col-xl-2 col-lg-2 col-md-5 col-6">
                 <div class="logo">
                   <nuxt-link class="logo-white" href="/">
-                    <img src="/images/logo/logo.png" alt="" style="width: 26px" />
+                    <img src="/images/logo/logo-green.png" alt="" style="width: 26px" />
                   </nuxt-link>
 
                 </div>
