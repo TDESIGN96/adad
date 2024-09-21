@@ -1,79 +1,32 @@
 
 // font url
-
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+$font-url: "https://fonts.googleapis.com";
+$font-url: "https://fonts.gstatic.com";
+$font-url: "https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
 $font-url: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:wght@400;500;700&family=EB+Garamond:wght@400;500;600;700;800&family=Kufam:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;900&display=swap';
 $font-url: "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
-@font-face {
-    font-family: 'Swissra-Normal';
-    src:    url('../fonts/swissra/Swissra-Normal.otf') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Swissra-Medium';
-    src:    url('../fonts/swissra/Swissra-Medium.otf') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Swissra-Bold';
-    src:    url('../fonts/swissra/Swissra-Bold.otf') format('woff');
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Swissra-Black';
-    src:    url('../fonts/swissra/Swissra-Black.otf') format('woff');
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Swissra-Light';
-    src:    url('../fonts/swissra/Swissra-Light.otf') format('woff');
-    font-style: normal;
-    font-display: swap;
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Swissra-Thin';
-    src:    url('../fonts/swissra/Swissra-Thin.otf') format('woff');
-    font-style: normal;
-    font-display: swap;
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Swissra-Normal';
-    src:    url('../fonts/swissra/Swissra-Normal.otf') format('woff');
-    font-style: normal;
-    font-display: swap;
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Swissra-Medium';
-    src:    url('../fonts/swissra/Swissra-Medium.otf') format('woff');
-    font-style: normal;
-    font-display: swap;
-    font-weight: 600;
-}
 
+
+body,.heading,p,.tp-header-4__menu > nav > ul div > li > a,.main-menu > nav > ul > li > a {
+    font-family: 'Alexandria';
+}
 // font family
 $font-family: (
     'ff': (
-        'body': "'Swissra-Normal','Poppins', sans-serif",
-        'heading': "'Swissra-Normal','Poppins', sans-serif",
-        'p': "'Swissra-Normal','Poppins', sans-serif",
-        'dmsans': "'Swissra-Normal', 'Poppins', sans-serif",
-        'didone': "'Swissra-Normal','Poppins', sans-serif",
-        'didoneWideMedium': "'Swissra-Medium','Poppins', serif",
-        'didoneCompackDark': "'Swissra-Black','Poppins', serif",
-        'didoneright': "'Swissra-Normal', 'Poppins',serif",
-        'garamond': "'Swissra-Normal','Poppins', serif",
-        'kufam': "'Swissra-Normal','Poppins', sans-serif",
-        'abril': "'Swissra-Normal','Poppins', cursive",
-        'poppins': "'Swissra-Normal','Poppins', sans-serif",
-        'playfair': "'Swissra-Normal',Poppins, sans-serif",
+        'body': "'Alexandria','Poppins', sans-serif",
+        'heading': "'Alexandria','Poppins', sans-serif",
+        'p': "'Alexandria','Poppins', sans-serif",
+        'dmsans': "'Alexandria', 'Poppins', sans-serif",
+        'didone': "'Alexandria','Poppins', sans-serif",
+        'didoneWideMedium': "'Alexandria','Poppins', serif",
+        'didoneCompackDark': "'Alexandria','Poppins', serif",
+        'didoneright': "'Alexandria', 'Poppins',serif",
+        'garamond': "'Alexandria','Poppins', serif",
+        'kufam': "'Alexandria','Poppins', sans-serif",
+        'abril': "'Alexandria','Poppins', cursive",
+        'poppins': "'Alexandria','Poppins', sans-serif",
+        'playfair': "'Alexandria',Poppins, sans-serif",
         'fontawesome': '"Font Awesome 6 Pro"',
     )
 );
