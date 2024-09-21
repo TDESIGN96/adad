@@ -40,7 +40,7 @@
             <div class="col-xl-2 col-lg-2 col-md-4 mb-40">
               <div class="tp-footer-4__widget footer-col-4-2">
                 <h4 class="tp-footer-4__widget-title">{{ $t("Home") }}</h4>
-                <ul>
+                <ul style="padding-left: 0px;">
                   <li>
                     <nuxt-link href="/">
                       <i class="fa-regular fa-arrow-right"></i> {{ $t("Home") }}</nuxt-link>
