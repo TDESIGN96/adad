@@ -89,6 +89,7 @@
                     color: #27899E;
                     transition: .3s;
                     position: relative;
+                    font-family: var(--tp-ff-didoneright);
                     & i{
                         position: absolute;
                         top: 3px;
@@ -96,6 +97,7 @@
                         opacity: 0;
                         visibility: hidden;
                         transition: .3s;
+                        font-family: var(--tp-ff-didoneright);
                     }
                     &:hover{
                         padding-left: 22px;
@@ -103,6 +105,7 @@
                         & i{
                             opacity: 1;
                             visibility: visible;
+                            font-family: var(--tp-ff-didoneright);
                         }
                     }
                 }
