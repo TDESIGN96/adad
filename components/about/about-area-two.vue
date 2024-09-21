@@ -12,8 +12,8 @@
           <div class="tp-hero-2__exp-brand-wrap">
             <div
             class="tp-project-3__title-box  text-center portfolio-sec-pin">            
-            <h5 class="tp-section-title-1 tp_title_anim">اكتشف</h5>
-            <h3 class="tp-section-title-3 tp_title_anim header semo">عملاؤنا</h3>
+            <h5 class="tp-section-title-1 tp_title_anim"> {{ $t("Discover") }}</h5>
+            <h3 class="tp-section-title-3 tp_title_anim header semo"> {{ $t("Clients") }}</h3>
             <img
               class="coma"
               src="/images/identity/coma.png"

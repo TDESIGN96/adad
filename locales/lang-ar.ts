@@ -17,7 +17,7 @@ export default {
   AboutUsbig : "من <br> نحن",
   ContactUsbig : "تواصل <br> معنا",
 
-
+  DiscoverMore: "اكتشف المزيد",
   /*********Menu ********/
 
   menu: {

@@ -19,6 +19,7 @@ export default {
   Teambig : "Team",
   AboutUsbig : "About Us",
   ContactUsbig : "Contact <br> Us",
+  DiscoverMore: "Discover More",
 
   menu: {
     home: "Home",

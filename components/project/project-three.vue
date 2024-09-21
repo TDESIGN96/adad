@@ -25,7 +25,7 @@
                 <img :src="imgSrc" alt="" />
                 <span></span>
                 <div class="tp-portfolio-view-btn-3">
-                  <span>اكتشف <br /> المزيد</span>
+                  <span>{{ $t("DiscoverMore") }}</span>
                 </div>
               </nuxt-link>
             </div>
@@ -38,16 +38,49 @@
 </template>
 
 <script setup lang="ts">
-const {portfolioPanel} = usePinPanel();
-
+import { ref, watch } from 'vue';
+import { useI18n } from 'vue-i18n';
 const { moveText, slideRefs } = useMoveText();
-const project_images = [
+
+
+// Image sets for English and Arabic
+const project_images_en = [
+  "/images/portfolio/3/portfolio-1-en.png",
+  "/images/portfolio/3/portfolio-2-en.png",
+  "/images/portfolio/3/portfolio-3-en.png",
+  "/images/portfolio/3/portfolio-4-en.png",
+  "/images/portfolio/3/portfolio-5-en.png",
+];
+
+const project_images_ar = [
   "/images/portfolio/3/portfolio-1.png",
   "/images/portfolio/3/portfolio-2.png",
   "/images/portfolio/3/portfolio-3.png",
   "/images/portfolio/3/portfolio-4.png",
   "/images/portfolio/3/portfolio-5.png",
 ];
+
+// i18n setup
+const { locale } = useI18n();
+
+// Function to select the appropriate image set based on the locale
+const getProjectImages = () => {
+  return locale.value === 'ar' ? project_images_ar : project_images_en;
+};
+
+// Define a reactive array to hold the current project images
+const project_images = ref(getProjectImages());
+
+// Watch for locale changes and update the images accordingly
+watch(() => locale.value, () => {
+  project_images.value = getProjectImages();
+});
+
+
+
+
+const {portfolioPanel} = usePinPanel();
+
 
 onMounted(() => {
   setTimeout(() => {
