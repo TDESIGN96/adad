@@ -21,13 +21,13 @@
               ref="slideRefs"
               @mousemove="moveText($event, i)"
             >
-              <nuxt-link href="#">
+            <nuxt-link :href="`/services-details/${i+1}`">
                 <img :src="imgSrc" alt="" />
                 <span></span>
                 <div class="tp-portfolio-view-btn-3">
-                  <span>{{ $t("DiscoverMore") }}</span>
+                  <span>{{ $t("Discover") }} <br />  {{ $t("More") }}</span>
                 </div>
-              </nuxt-link>
+            </nuxt-link>
             </div>
           </div>
         </div>
@@ -50,6 +50,7 @@ const project_images_en = [
   "/images/portfolio/3/portfolio-3-en.png",
   "/images/portfolio/3/portfolio-4-en.png",
   "/images/portfolio/3/portfolio-5-en.png",
+  "/images/portfolio/3/portfolio-6-en.png",
 ];
 
 const project_images_ar = [
@@ -58,6 +59,7 @@ const project_images_ar = [
   "/images/portfolio/3/portfolio-3.png",
   "/images/portfolio/3/portfolio-4.png",
   "/images/portfolio/3/portfolio-5.png",
+  "/images/portfolio/3/portfolio-6.png",
 ];
 
 // i18n setup
