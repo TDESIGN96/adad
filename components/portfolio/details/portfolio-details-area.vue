@@ -106,7 +106,7 @@
               <div class="row">
                 <div class="col-xl-12">
                     <div class="tp-portfolio-item-wrapper-3">
-                      <div v-for="(imgSrc,i) in images" :key="i" class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                      <div v-for="(imgSrc,i) in images" :key="i" class="tp-portfolio-item-3 portfolio-panel pb-5 tp-hover-reveal-text">
                           <a href="#">
                             <img :src="imgSrc" alt="">
                             <span></span>

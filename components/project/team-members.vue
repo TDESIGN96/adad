@@ -53,13 +53,7 @@ const teamMembers  = [
     title: `team.members.3.name`,
     position: `team.members.3.position`,
   },
-  {
-    id:4,
-    img: '/images/users/team-4.png',
-    title: `team.members.4.name`,
-    position: `team.members.4.position`,
-  },
-
+ 
 ];
 
 

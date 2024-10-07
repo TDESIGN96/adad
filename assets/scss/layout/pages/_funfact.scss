@@ -19,12 +19,11 @@
         }
         &-item{
             position: absolute;
-            top: -35%;
+            top: -20%;
             left: 0;
             width: 100%;
-            height: calc(160% + 30% );
+            height: calc(100% + 30% );
             @include background();
-            border-radius: 20px;
         }
         
     }

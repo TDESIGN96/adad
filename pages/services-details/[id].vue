@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-layout name="layout-six">
+    <nuxt-layout name="layout-one">
       <!-- Check if service is defined -->
       <template v-if="service">
         <HeroBannerServices :service="service" />

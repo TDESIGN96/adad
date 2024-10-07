@@ -112,6 +112,7 @@ html[tp-theme='tp-theme-light']{
     }
     & .main-menu > nav > ul > li > a {
         color: var(--tp-common-black-5);
+        text-decoration: none;
     }
     & .main-menu > nav > ul > li > .submenu {
         border-radius: 0px 0px 4px 4px;

@@ -11,8 +11,36 @@
     background-color:transparent ;
     border: none;
     margin-bottom: 50px;
+    transition: all 0.2s ease;
+    padding: 10px;
+    @media #{$xs}{
+      
+        flex-direction: column;
+    }
+   
 }
+.service-card .card:hover {
+    background-color:rgb(215, 215, 215);
 
+}
+.service-card .card img {
+
+    max-width: 10%;
+
+    @media #{$xs}{
+      
+        margin-bottom: 20px;
+    }
+}
+.service-center {
+    width: 120px;
+    height: 100px;
+    @media #{$xs}{
+        width: 0px;
+        height: 0px;
+    }
+    
+}
 .tp-services{
     &-inner{
         padding-right: 65px;

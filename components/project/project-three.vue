@@ -17,7 +17,7 @@
             <div
               v-for="(imgSrc, i) in project_images"
               :key="i"
-              class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text"
+              class="tp-portfolio-item-3 portfolio-panel pb-5 tp-hover-reveal-text"
               ref="slideRefs"
               @mousemove="moveText($event, i)"
             >

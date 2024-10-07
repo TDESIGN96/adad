@@ -52,12 +52,13 @@ export default {
   },
 
   /*********Services *********/
-  Advertising : "Advertising and Marketing Services",
-  TV : "TV Channel Services",
-  Consultation : "Consultation and Development Services",
-  SM : "Social Media Services",
-  Journalism : "Journalism Services",
 
+  Advertising : "Advertising and Promotion Department",
+  TV : "TV Program Preparation Department",
+  Consultation :"Training and Consulting Services",
+  SM: "Social Media Department",
+  technical: "Technical Department",
+  data_analysis: "Data Collection and Analysis Services",
 
   Rights : "All Rights Reserved",
 
@@ -67,6 +68,8 @@ export default {
   services_data: {
 
     1: {
+      headtitle :'TV Program Preparation',
+
       title: [
     
       "Morning programs",
@@ -77,16 +80,19 @@ export default {
 
     },
     2: {
+      headtitle :'Social Media',
       title: [
     
         "Writing comedic and serious sketches", "podcasts", "copywriting", 'writing video content'],
     },
     3: {
+      headtitle :'Advertising & Promotion Preparation',
       title: [
     
        " Various advertisements"," TV commercials", "brand advertisements."],
     },
     4: {
+      headtitle :'Artistic',
       title: [
     
         "Long series", "short series", "long films", "short films", "writing animation content", "preparing documentaries", "writing song texts", "satirical songs", "writing stand-up comedy shows"],

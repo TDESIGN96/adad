@@ -136,6 +136,7 @@
             }
         }
     }
+    
     &-title{
         font-size: 100px;
         font-weight: 700;
@@ -146,6 +147,9 @@
         transform: translateX(-8px);
         margin-bottom: 20px;
         display: inline-block;
+        &-bg {
+            font-size: 50px;
+        }
         @media #{$xl}{
             font-size: 150px;
         }

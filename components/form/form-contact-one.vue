@@ -37,7 +37,7 @@
           <div class="tp-contact-2__select">
               <ui-nice-select
                   :options="[
-                    { value: 'subject', text: 'خدمات الاستشارة والتطوير'},
+                    { value: 'subject', text:  $t('Advertising') },
                     { value: 'support', text: 'خدمات القنوات الفضائية'},
                     { value: 'security', text: 'خدمات الدعاية والاعلان'},
                     { value: 'protection', text: 'خدمات السوشيال ميديا'},
