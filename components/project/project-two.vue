@@ -1,12 +1,12 @@
 <template>
   <client-only>
     
-  <div class="tp-project-3__area p-relative adad-bg pt-110">
+  <div class="tp-project-3__area p-relative adad-bg pt-110 pb-50">
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
           <div
-            class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin">
+            class="tp-project-3__title-box pb-30 text-center portfolio-sec-pin ">
             <h5 class="tp-section-title-1  tp_title_anim">{{ $t("Discover") }}</h5>
             <h3 class="tp-section-title-3 tp_title_anim header semo"> {{ $t("Sevices") }}</h3>
             <img

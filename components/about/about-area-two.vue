@@ -13,7 +13,7 @@
             <div
             class="tp-project-3__title-box  text-center portfolio-sec-pin">            
             <h5 class="tp-section-title-1 tp_title_anim"> {{ $t("Discover") }}</h5>
-            <h3 class="tp-section-title-3 tp_title_anim header semo"> {{ $t("Clients") }}</h3>
+            <h3 class="tp-section-title-3 tp_title_anim header semo pb-50"> {{ $t("Clients") }}</h3>
             <img
               class="coma"
               src="/images/identity/coma.png"

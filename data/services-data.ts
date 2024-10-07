@@ -14,12 +14,12 @@ const services_data:IServiceDT[] = [
       '/images/services/sub-services/television.png',
       '/images/services/sub-services/laugh.png',
       '/images/services/sub-services/tv.png',
-      
+
     ],
     title: [
       "How to build photoshoots Scene",
       "How to build photoshootsss Scene"],
-      
+
     headingtitle :[ 'contacttt'],
     author: "Jhon Smith",
     page:'home-one',
@@ -36,7 +36,7 @@ const services_data:IServiceDT[] = [
     ],
     headingtitle :[ 'tontacttt'],
     title: [
-      
+
       "How to build photoshoots Scene",
       "How to build photoshoots Scene"
 
@@ -51,12 +51,12 @@ const services_data:IServiceDT[] = [
       '/images/services/sub-services/bullhorn.png',
       '/images/services/sub-services/tv-monitor.png',
       '/images/services/sub-services/video-marketing.png',
-     
+
 
     ],
     headingtitle :[ 'tontacttt'],
     title: [
-      
+
       "How to build photoshoots Scene",
       "How to build photoshoots Scene"
 
@@ -79,10 +79,10 @@ const services_data:IServiceDT[] = [
       '/images/services/sub-services/script.png',
       '/images/services/sub-services/happiness.png',
       '/images/services/sub-services/stand-up.png',
-      
+
     ],
     title: [
-      
+
       "How to build photoshoots Scene",
       "How to build photoshoots Scene"
 
@@ -94,9 +94,7 @@ const services_data:IServiceDT[] = [
     page: "home-three",
   },
   
-  
-  
-  
+
 ]
 
 export default services_data;

@@ -1,13 +1,11 @@
 
-
 export interface IServiceDT {
   id: number;
   img: string[];
   imgbg: string[];
   images?: string[];
-  backgroundImg?: string;  
+  backgroundImg?: string;
   headingtitle : string[];
-
   author: string;
   title: string[];
   titles? : string[];
@@ -20,6 +18,4 @@ export interface IServiceDT {
   desc?: string;
   slider?: boolean;
   comments?: number;
-  
-
 }

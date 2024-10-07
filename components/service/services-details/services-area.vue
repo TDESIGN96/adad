@@ -14,7 +14,7 @@
                   <div class="row gx-50">
                     <div v-for="(service, outerIndex) in filteredServices" :key="service.id"
                       class="col-lg-12 col-md-12">
-                      <NuxtLink to="/contact-us#contact-form">
+                      <a href="https://wa.me/+9647730321321">
                       <div class="service-card">
                        
                           <div class="card" :style="{ direction: index % 2 === 0 ? 'rtl' : 'ltr' }"
@@ -33,7 +33,7 @@
                         <!-- Add other content if needed -->
                       </div>
 
-                    </NuxtLink>
+                    </a>
                     </div>
                   </div>
                 </div>

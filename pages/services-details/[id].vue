@@ -10,7 +10,9 @@
       </template>
 
       <template v-else>
-        <p>Service not found. Redirecting...</p>
+        <div class="full-page-message">
+          <p>Service not found. Redirecting...</p>
+        </div>
       </template>
     </nuxt-layout>
   </div>
@@ -29,14 +31,14 @@ const service = ref<IServiceDT | undefined>();
 
 
   const loadService = () => {
-  // Find the service based on ID
+
   service.value = services_data.find(s => s.id === serviceId.value);
 
-  // Redirect if the service is not found
+
   if (!service.value) {
     setTimeout(() => {
-      router.push("/Services"); // Redirect after a short delay
-    }, 2000); // Optionally delay for user experience
+      window.location.href = "https://wa.me/+9647730321321";
+    }, 400);
   }
 };
 
@@ -47,3 +49,19 @@ onMounted(() => {
 
 
 </script>
+<style scoped>
+.full-page-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.full-page-message p {
+  font-size: 1.5rem; /* Increase the font size */
+  color: #333; /* Dark text color */
+}
+
+</style>
