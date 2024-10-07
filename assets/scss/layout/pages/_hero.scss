@@ -7,6 +7,10 @@
     background-repeat: repeat;
     background-size: auto;
     background-position: -63px -61px;
+    @media #{$xs}{
+        background-position: center;
+        background-size: cover;
+    }
 }
 .tp-distort-bg{
     position: absolute;

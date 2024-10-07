@@ -70,7 +70,12 @@
 }
 // header-area-end
 
-
+.bg-mobile {
+    @media #{$xs}{
+        padding-top: 130px;
+        background-color: rgba($color: #fff, $alpha: 0.5);
+    } 
+}
 // hero-area-start
 .tp-hero-5{
     &-ptb{
@@ -80,7 +85,9 @@
         }
         @media #{$xs}{
             padding-top: 130px;
+          
         }
+        
     }
     &-big-thumb{
         position: absolute;
