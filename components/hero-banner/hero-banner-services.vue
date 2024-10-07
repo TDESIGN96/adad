@@ -1,5 +1,5 @@
 <template>
-  <div class="tp-hero-5-area p-relative hero-details-bg " :style="{ backgroundImage: `url(${backgroundImage})` }">
+  <div class="tp-hero-5-area p-relative hero-details-bg " :style="{ backgroundImage: `url(${backgroundImage})` }" style="overflow-x: hidden;">
         <div class="tp-hero-5-bdr-left tp-hero-5-ptb">
             <div class="row">
               <div class="col-xxl-1 tp-hero-5-thumb-wrap">

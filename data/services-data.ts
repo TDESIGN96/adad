@@ -93,25 +93,7 @@ const services_data:IServiceDT[] = [
     author: "Jhon Smith",
     page: "home-three",
   },
-  {
-    id: 5,
-    imgbg: ['/images/services/sub-services/5.jpg'],
-    img: [
-      
-     
-    ],
-    title: [
-      
-      "How to build photoshoots Scene",
-      "How to build photoshoots Scene"
-
-    ],
-
-    headingtitle :[ 'tontacttt'],
-        time: "7 min read",
-    author: "Jhon Smith",
-    page: "home-three",
-  },
+  
   
   
   
