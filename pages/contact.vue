@@ -29,7 +29,6 @@ definePageMeta({ layout: false });
 
 
 onMounted(() => {
-  useSmoothScroll();
   document.body.classList.add("black-bg-3");
 
   setTimeout(() => {

@@ -61,6 +61,39 @@ export default {
 
   Rights : "All Rights Reserved",
 
+
+  /*************Sub Services *************/
+
+  services_data: {
+
+    1: {
+      title: [
+    
+      "Morning programs",
+      "social programs",
+      "political programs",
+      "satirical political programs",
+      "talk shows","cultural programs", "scientific programs", "various entertainment programs"," sports programs"],
+
+    },
+    2: {
+      title: [
+    
+        "Writing comedic and serious sketches", "podcasts", "copywriting", 'writing video content'],
+    },
+    3: {
+      title: [
+    
+       " Various advertisements"," TV commercials", "brand advertisements."],
+    },
+    4: {
+      title: [
+    
+        "Long series", "short series", "long films", "short films", "writing animation content", "preparing documentaries", "writing song texts", "satirical songs", "writing stand-up comedy shows"],
+    }
+
+},
+
   /*********Clients *********/
 
   CivilLink : "Civil Link",

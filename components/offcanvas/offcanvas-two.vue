@@ -50,7 +50,7 @@
 
                <ul>
                   <li><a href="tel:1245654">+964 123 456 789</a></li>
-                  <li><a href="mailto:info@adadplatform.com">info@adadplatform.com</a></li>
+                  <li><a href="mailto:info@Idadplatform.com">info@Idadplatform.com</a></li>
                   <li><a href="#">Baghdad, Iraq</a></li>
                </ul>
             </div>

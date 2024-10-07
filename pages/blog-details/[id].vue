@@ -25,7 +25,6 @@ const blog = ref<IBlogDT | undefined>();
 
 
 onMounted(() => {
-  useSmoothScroll();
 
   
   blog.value = [...blog_data].find((b) => b.id === Number(blogId.value));

@@ -38,7 +38,6 @@ const {servicesPanel} = usePinPanel();
 
 
 onMounted(() => {
-  useSmoothScroll();
 
   setTimeout(() => {
     useAnimationTitle();

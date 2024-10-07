@@ -37,7 +37,6 @@ useSeoMeta({ title: "Portfolio Details Page - Diego" });
 definePageMeta({ layout: false });
 
 onMounted(() => {
-  useSmoothScroll();
   setTimeout(() => {
     useAnimationTitle();
   },50)

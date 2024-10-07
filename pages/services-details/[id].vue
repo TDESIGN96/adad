@@ -17,7 +17,7 @@
 <script setup lang="ts">
 import services_data from "@/data/services-data";
 import type { IServiceDT } from "@/types/service-d-t";
-useSeoMeta({ title: "Adad Services Page - Adad" });
+useSeoMeta({ title: "Idad Services Page - Idad" });
 definePageMeta({ layout: false });
 
 const route = useRoute();
@@ -40,7 +40,6 @@ const service = ref<IServiceDT | undefined>();
 
 
 onMounted(() => {
-  useSmoothScroll();
   loadService();
 });
 

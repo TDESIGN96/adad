@@ -69,7 +69,6 @@ definePageMeta({ layout: false });
 const { servicesPanel } = usePinPanel();
 
 onMounted(() => {
-  useSmoothScroll();
 
   document.body.classList.add("black-bg-3");
   setTimeout(() => {

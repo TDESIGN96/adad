@@ -20,5 +20,6 @@ export interface IServiceDT {
   desc?: string;
   slider?: boolean;
   comments?: number;
-  video?:boolean;
+  
+
 }

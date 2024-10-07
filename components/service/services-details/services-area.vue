@@ -13,13 +13,13 @@
                 <div class="blog-list__wrapper">
                   <div class="row gx-50">
                     <div 
-                      v-for="service in filteredServices" 
+                      v-for="(service, outerIndex) in filteredServices" 
                       :key="service.id" 
-                      class="col-lg-4 col-md-6"
+                      class="col-lg-12 col-md-12"
              
                     >
-                      <div class="service-card">
-                        <div 
+                      <div class="service-card" >
+                        <div class="card" :style="{ direction: index % 2 === 0 ? 'rtl' : 'ltr' }"
                           v-for="(img, index) in service.img" 
                           :key="index"
                         >
@@ -27,7 +27,7 @@
                           <img :src="img" alt="Service Image" />
 
                           <!-- Display the corresponding title -->
-                          <h3 v-if="service.title[index]">{{ service.title[index] }}</h3>
+                          <h3 >{{ $t(`services_data.${service.id}.title[${index}]`) }}</h3>
                         </div>
                     
                 
@@ -51,6 +51,7 @@
 import services_data from "@/data/services-data";
 import { useRoute } from 'vue-router';
 import type { IServiceDT } from "@/types/service-d-t";
+
 defineProps<{ service: IServiceDT }>();
 const route = useRoute();
 const specificId = Number(route.params.id);

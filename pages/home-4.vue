@@ -54,7 +54,6 @@ onMounted(() => {
   document.body.classList.add("tp-magic-cursor");
 });
 onMounted(() => {
-  useSmoothScroll();
   cursorAnimation();
 
   setTimeout(() => {

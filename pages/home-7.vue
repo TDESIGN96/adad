@@ -30,7 +30,6 @@ definePageMeta({ layout: false });
 import cursorAnimation from "@/utils/tp-cursor";
 
 onMounted(() => {
-  useSmoothScroll();
   document.body.classList.add("tp-magic-cursor");
   cursorAnimation();
 });

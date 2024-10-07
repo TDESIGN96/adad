@@ -3,15 +3,17 @@ import type { IServiceDT } from "@/types/service-d-t";
 const services_data:IServiceDT[] = [
   {
     id:1,
-    imgbg: ['/images/new-img/big-img/clients.png'],
+    imgbg: ['/images/new-img/big-img/clients.png'], // For Hero Section
         img: [
       '/images/blog/blog-1.jpg',
-      '/images/blog/blog-2.jpg'
+      '/images/blog/blog-2.jpg',
+      '/images/blog/blog-2.jpg',
+      '/images/blog/blog-2.jpg',
     ],
     title: [
-      
       "How to build photoshoots Scene",
       "How to build photoshootsss Scene"],
+      
    headingtitle :[ 'contacttt'],
     author: "Jhon Smith",
     page:'home-one',

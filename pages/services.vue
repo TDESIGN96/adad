@@ -32,7 +32,6 @@ import { buttonAnimation } from "@/utils/buttonAnimation";
 const {servicesPanel} = usePinPanel();
 
 onMounted(() => {
-  useSmoothScroll();
 
   setTimeout(() => {
     useCharAnimation();

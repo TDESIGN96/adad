@@ -14,7 +14,6 @@ definePageMeta({ layout: false });
 
 
 onMounted(() => {
-  useSmoothScroll();
 
   setTimeout(() => {
     useAnimationTitle();
