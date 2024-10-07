@@ -3,8 +3,10 @@
     <nuxt-layout name="layout-one">
       <!-- Check if service is defined -->
       <template v-if="service">
+        
         <HeroBannerServices :service="service" />
         <ServiceServicesDetailsServicesArea :service="service" />
+        <marquee-two />
       </template>
 
       <template v-else>

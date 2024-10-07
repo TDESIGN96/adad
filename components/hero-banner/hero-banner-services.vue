@@ -1,6 +1,5 @@
 <template>
   <div class="tp-hero-5-area p-relative hero-details-bg " :style="{ backgroundImage: `url(${backgroundImage})` }">
-      <div class="container container-1760">
         <div class="tp-hero-5-bdr-left tp-hero-5-ptb">
             <div class="row">
               <div class="col-xxl-1 tp-hero-5-thumb-wrap">
@@ -37,7 +36,7 @@
         </div>
       </div>
     
-  </div>
+      <marquee-two />
 </template>
 
 <script setup lang="ts">
