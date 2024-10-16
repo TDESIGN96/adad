@@ -11,38 +11,33 @@
     <div class="row">
         <div class="col-xl-6 col-lg-4 mb-50">
           <div class="tp-contact-2__input">
-              <input class="input-field" type="text" placeholder="الاسم الثلاثي..">
+              <input class="input-field" type="text" :placeholder="$t('form.placeholders.name')">
               <span class="focus-border"></span>
           </div>
         </div>
         <div class="col-xl-6 col-lg-4 mb-50">
           <div class="tp-contact-2__input">
-              <input class="input-field " type="text" placeholder="بريدك الالكتروني..">
+              <input class="input-field " type="text" :placeholder="$t('form.placeholders.email')">
               <span class="focus-border"></span>
           </div>
         </div>
         <div class="col-xl-6 col-lg-4 mb-50">
           <div class="tp-contact-2__input">
-              <input class="input-field" type="text" placeholder="رقم هاتفك..">
+              <input class="input-field" type="text" :placeholder="$t('form.placeholders.phone')">
               <span class="focus-border"></span>
           </div>
         </div>
         <div class="col-xl-6 col-lg-4 mb-50">
           <div class="tp-contact-2__input">
-              <input class="input-field" type="text" placeholder="اسم المؤسسة او الشركة..">
+              <input class="input-field" type="text" :placeholder="$t('form.placeholders.company')">
               <span class="focus-border"></span>
           </div>
         </div>
         <div class="col-xl-12 col-lg-12 mb-50">
           <div class="tp-contact-2__select">
               <ui-nice-select
-                  :options="[
-                    { value: 'subject', text:  $t('Advertising') },
-                    { value: 'support', text: 'خدمات القنوات الفضائية'},
-                    { value: 'security', text: 'خدمات الدعاية والاعلان'},
-                    { value: 'protection', text: 'خدمات السوشيال ميديا'},
-                    { value: 'protection', text: 'خدمات الصحافة'},
-                  ]"
+                  :options=translatedOptions
+                  :key="languageKey"
                   name="subject"
                   :default-current="0"
                   @onChange="changeHandler"
@@ -54,7 +49,7 @@
         <div class="col-xl-12">
           <div class="tp-contact-2__textarea">
               <textarea class="input-field"
-                placeholder="كتابة الرسالة ..."></textarea>
+                :placeholder="$t('form.placeholders.message')"></textarea>
               <span class="focus-border"></span>
           </div>
         </div>
@@ -63,19 +58,19 @@
               <div class="parallax-wrap d-inline-block">
                 <div class="parallax-element">
                     <button class="tp-btn-pink-large">
-                      <span data-hover="رسالة">
-                          ارسال                      </span>
+                      <span data-hover="{{ $t('form.submit') }}">
+                        {{ $t('form.send') }}                   </span>
                     </button>
                 </div>
               </div>
           </div>
         </div>
         <div class="col-xl-6">
-          <div class="tp-contact-2__btn text-right">
+          <div class="tp-contact-2__btn">
               <div class="parallax-wrap d-inline-block">
                 <div class="parallax-element text-black ">
-                  * الحقول التي تحتوي على علامة نجمة هي اختيارية
-                </div>
+                  * {{ $t('form.optionalFieldsNote') }}
+                                </div>
               </div>
           </div>
         </div>
@@ -84,8 +79,45 @@
 </template>
 
 <script setup lang="ts">
+import {  watchEffect, computed } from 'vue';
+import { useI18n } from 'vue-i18n';
 
 const changeHandler = (e: { value: string; text: string }) => {
   console.log(e);
 };
+
+// Define the component without using 'export default'
+
+
+// Define the type for the options
+interface Option {
+  value: string;
+  text: string;
+}
+
+// Get the t function from vue-i18n
+const { t, locale } = useI18n();
+const languageKey = ref(Date.now());
+
+languageKey.value = Date.now();  // Trigger a change in the key
+
+// Computed property for the options
+const translatedOptions = computed<Option[]>(() => [
+  { value: '', text: t('form.options.select_service') },
+  { value: 'advertising', text: t('Advertising') },
+  { value: 'tv', text: t('TV') },
+  { value: 'consultation', text: t('Consultation') },
+  { value: 'sm', text: t('SM') },
+  { value: 'technical', text: t('technical') },
+  { value: 'data_analysis', text: t('data_analysis') },
+]);
+
+
+
+watchEffect(() => {
+  // This will ensure that when the language changes, the options are updated
+  translatedOptions.value;
+});
+
+
 </script>

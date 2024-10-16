@@ -40,6 +40,19 @@
           padding-left: 0px;
 
         }
+
+        .nice-select .option {
+          text-align: left;
+        }
+      
+        .nice-select::after {
+          left: auto;
+    right:0;
+        }
+        .tp-contact-2__btn {
+          text-align: right;
+        }
    
 
   }
+

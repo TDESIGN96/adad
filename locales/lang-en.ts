@@ -51,10 +51,28 @@ export default {
     }
   },
 
+
+   /*******Form */
+   "form": {
+    "consultingTitle": "Consulting",
+    "placeholders": {
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "phone": "Enter your phone number",
+      "company": "Enter your company name",
+      "message": "Write your message..."
+    },
+    "options": {
+      select_service: 'Please select your services',
+    },
+    "submit": "Send",
+    "send": "Send",
+    "optionalFieldsNote": "Fields marked with an asterisk are optional."
+  },
   /*********Services *********/
 
   Advertising : "Advertising and Promotion Department",
-  TV : "TV Program Preparation Department",
+  TV : "TV Programs Production Department",
   Consultation :"Training and Consulting Services",
   SM: "Social Media Department",
   technical: "Technical Department",
@@ -68,7 +86,7 @@ export default {
   services_data: {
 
     1: {
-      headtitle :'TV Program Preparation',
+      headtitle :'TV Programs Production Department',
 
       title: [
     

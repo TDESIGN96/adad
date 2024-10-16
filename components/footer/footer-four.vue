@@ -51,7 +51,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="tp-footer-6-copyright-text text-center text-md-end">
                       <span>
-                          <a href="mailto:info@example.com">info@example.com</a>
+                          <a href="mailto:info@idadco.com">info@idadco.com</a>
                       </span>
                     </div>
                 </div>

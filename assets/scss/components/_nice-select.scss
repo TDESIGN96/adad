@@ -46,7 +46,7 @@
         position: absolute;
 		content: '\f107';
         top: 50%;
-        right: 0;
+        left: 0;
 		font-family: var(--tp-ff-fontawesome);
 		color: var(--tp-common-black);
 		font-weight: 500;
@@ -146,7 +146,7 @@
         outline: none;
         padding-left: 18px;
         padding-right: 29px;
-        text-align: left;
+        text-align: right;
         -webkit-transition: all 0.2s;
         transition: all 0.2s;
         color: var(--tp-common-white);
@@ -174,3 +174,5 @@
 .no-csspointerevents .nice-select.open .list {
 	display: block;
 }
+
+

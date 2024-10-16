@@ -4,11 +4,14 @@ import ar from '../locales/lang-ar';
 import { watch } from 'vue';
 
 export default defineNuxtPlugin(({ vueApp }) => {
+  // Check if we are on the client side to avoid `localStorage` errors
+  const savedLocale = process.client ? localStorage.getItem('locale') || 'ar' : 'ar'; // Default to 'ar' if no saved locale
+
   // Initialize the i18n instance
   const i18n = createI18n({
     legacy: false,
     globalInjection: true,
-    locale: 'ar', // Default to Arabic
+    locale: savedLocale, // Use the saved locale
     fallbackLocale: 'en',
     messages: {
       ar,
@@ -21,7 +24,6 @@ export default defineNuxtPlugin(({ vueApp }) => {
 
   // Type-safe function to update the HTML lang class
   const updateHtmlLangClass = (locale: string) => {
-    // Ensure this only runs on the client side
     if (process.client) {
       document.documentElement.classList.remove('lang-ar', 'lang-en');
       document.documentElement.classList.add(`lang-${locale}`);
@@ -33,12 +35,16 @@ export default defineNuxtPlugin(({ vueApp }) => {
     updateHtmlLangClass(i18n.global.locale.value as string);
   }
 
-  // Watch for locale changes using Vue's Composition API watch function
+  // Watch for locale changes and update localStorage and HTML lang class
   watch(
     () => i18n.global.locale.value,
     (newLocale: string) => {
       if (process.client) {
+        // Save the new language to localStorage
+        localStorage.setItem('locale', newLocale);
         updateHtmlLangClass(newLocale);
+        // Reload the page to reflect the language change
+      
       }
     },
     { immediate: true }

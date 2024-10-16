@@ -50,7 +50,7 @@
 
                <ul>
                   <li><a href="https://wa.me/+9647730321321">009647730321321</a></li>
-                  <li><a href="mailto:info@Idadplatform.com">info@idadplatform.com</a></li>
+                  <li><a href="mailto:info@idadco.com">info@idadco.com</a></li>
                   <li><a href="#">Baghdad, Iraq</a></li>
                </ul>
             </div>

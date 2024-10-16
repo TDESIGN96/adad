@@ -24,7 +24,7 @@
                   <div class="tp-port-2-content"  dir="ltr">
                     <div class="tp-port-2-text ">
                         <p class="pb-30">
-                          <nuxt-link class="tp-btn-blue" href="#">
+                          <nuxt-link class="tp-btn-blue" href="/contact-us#contact-form">
 
 
                           <span class="text">

@@ -62,7 +62,7 @@
                       <i class="fa-regular fa-arrow-right"></i>{{ $t("Clients") }}</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link href="/clients">
+                    <nuxt-link href="/contact-us">
                       <i class="fa-regular fa-arrow-right"></i>{{ $t("ContactUs") }}</nuxt-link>
                   </li>
                 </ul>
@@ -99,17 +99,17 @@
               <div class="tp-footer-4__widget footer-col-4-4">
                 <h4 class="tp-footer-4__widget-title">{{ $t("ContactUs") }}</h4>
                 <div class="tp-footer-4__widget-mail">
-                  <a href="mailto:info@edadplatform.com">info@iedadplatform.com</a>
+                  <a href="mailto:info@idadco.com">info@idadco.com</a>
                 </div>
                 <div class="tp-footer-4__widget-mail">
                   <a href="https://wa.me/+9647730321321">009647730321321</a>
                 </div>
                 <select id="locale-select" v-model="$i18n.locale">
-        <option value="ar">عربي</option>
-        <option value="en">
-          
-          
-          English</option>
+                        <option value="ar">عربي</option>
+                        <option value="en">
+                    
+                    
+                    English</option>
      
       </select>
               </div>

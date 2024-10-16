@@ -17,7 +17,25 @@ export default {
   AboutUsbig : "من <br> نحن",
   ContactUsbig : "تواصل <br> معنا",
   DiscoverMore: "اكتشف المزيد",
+  
 
+
+  /*******Form */
+"form": {
+  "placeholders": {
+    "name": "أدخل اسمك",
+    "email": "أدخل بريدك الإلكتروني",
+    "phone": "أدخل رقم هاتفك",
+    "company": "أدخل اسم المؤسسة أو الشركة",
+    "message": "كتابة الرسالة..."
+  },
+  "options": {
+    select_service: 'يرجى اختيار احدى الخدمات',
+  },
+  "submit": "إرسال",
+  "send": "إرسال",
+  "optionalFieldsNote": "الحقول التي تحتوي على علامة نجمة هي اختيارية."
+    },
 
 
   /*********Menu ********/

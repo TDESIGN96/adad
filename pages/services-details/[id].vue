@@ -54,14 +54,14 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   text-align: center;
-  background-color: #f0f0f0; /* Light background color */
+  background-color: #f0f0f0;
 }
 
 .full-page-message p {
-  font-size: 1.5rem; /* Increase the font size */
-  color: #333; /* Dark text color */
+  font-size: 1.5rem;
+  color: #333;
 }
 
 </style>

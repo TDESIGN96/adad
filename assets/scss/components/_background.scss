@@ -84,7 +84,7 @@
 .contact-bg {
 	background-image: url("/images/new-img/big-img/contact-bg.png");
 	background-size: cover;
-	background-position: right;
+	background-position: center;
 	@media #{$xs}{
 		background-position: -285px;
 	}

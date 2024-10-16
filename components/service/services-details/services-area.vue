@@ -19,10 +19,10 @@
                        
                           <div class="card" :style="{ direction: index % 2 === 0 ? 'rtl' : 'ltr' }"
                             v-for="(img, index) in service.img" :key="index">
-                            <!-- Display the image -->
+                      
                             <img :src="img" alt="Service Image" class="service-image" />
 
-                            <!-- Display the corresponding title -->
+                    
                             <h3 class="service-title">{{ $t(`services_data.${service.id}.title[${index}]`) }}
                             </h3>
 
@@ -30,7 +30,7 @@
                           </div>
                       
 
-                        <!-- Add other content if needed -->
+                   
                       </div>
 
                     </a>
