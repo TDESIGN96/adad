@@ -9,10 +9,10 @@
               <div class="ab-funfact__item space-left-1 wow tpfadeUp" data-wow-duration=".9s" >
                  
                   <div class="ab-funfact__content">
-                    <h4 class="ab-funfact__title-sm"> قم بحجز استشارة مجانية </h4>
+                    <h4 class="ab-funfact__title-sm">{{ $t("Book")}}</h4>
                     <div class="ab-hero__btn-box pt-40" style="text-align: center;">
                       <a class="tp-btn-border-sm" href="/contact-us#contact-form" style="background-color: #018EAA;">
-                        احجز الان!</a></div>
+                       {{ $t("BookNow") }}</a></div>
                   </div>
               </div>
             </div>

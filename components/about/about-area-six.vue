@@ -38,7 +38,7 @@
                       >
                       
                       
-                      {{ $t("AboutDesc") }}                    
+                      {{ isArabic ?  description_ar : description }}
                     
                     
                     </p>
@@ -54,12 +54,19 @@
 </template>
 
 <script setup lang="ts">
+import { computed, defineProps } from "vue";
+import { useI18n } from 'vue-i18n';
+const { locale } = useI18n();
+defineProps({
+  description: {
+    type: String,
+    required: true,
+  },
+  description_ar: {
+    type: String,
+    required: true,
+  },
+});
+const isArabic = computed(() => locale.value === 'ar');
 
-const brands = [
-  '/images/brand/logo2-1.svg',
-  '/images/brand/logo2-2.svg',
-  '/images/brand/logo2-3.svg',
-  '/images/brand/logo2-4.svg',
-  '/images/brand/logo2-5.svg',
-]
 </script>

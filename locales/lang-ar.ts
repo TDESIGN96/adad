@@ -32,10 +32,11 @@ export default {
   "options": {
     select_service: 'يرجى اختيار احدى الخدمات',
   },
-  "submit": "إرسال",
+  
+  "submit": "رسالة",
   "send": "إرسال",
   "optionalFieldsNote": "الحقول التي تحتوي على علامة نجمة هي اختيارية."
-    },
+},
 
 
   /*********Menu ********/

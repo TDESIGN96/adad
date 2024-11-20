@@ -13,7 +13,7 @@
 
                       
                       
-                      {{ $t("MissionDesc") }}                   
+                      {{ isArabic ?  mission_description_ar : mission_description }}                  
                    
                     </p>
 
@@ -36,4 +36,18 @@
 </template>
 
 <script setup lang="ts">
+import { computed, defineProps } from "vue";
+import { useI18n } from 'vue-i18n';
+const { locale } = useI18n();
+defineProps({
+  mission_description: {
+    type: String,
+    required: true,
+  },
+  mission_description_ar: {
+    type: String,
+    required: true,
+  },
+});
+const isArabic = computed(() => locale.value === 'ar');
 </script>

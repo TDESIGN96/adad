@@ -65,7 +65,7 @@ export default {
     "options": {
       select_service: 'Please select your services',
     },
-    "submit": "Send",
+    "submit": "Message",
     "send": "Send",
     "optionalFieldsNote": "Fields marked with an asterisk are optional."
   },

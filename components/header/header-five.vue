@@ -6,7 +6,7 @@
          <div class="container-fluid">
             <div class="row align-items-center">
 
-               <div class="col-xl-12 d-none d-xl-block">
+               <div class="col-lg-12 d-none d-lg-block">
                   <div class="tp-header-4__menu text-center">
                      <nav>
                         <ul class="d-flex justify-content-evenly">
@@ -62,7 +62,7 @@
                </div>
 
 
-               <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
+               <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-12 col-12 d-lg-none d-flex justify-content-between ">
 
                   <div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
 
@@ -109,7 +109,7 @@
             <div class="row align-items-center">
 
 
-               <div class="col-xl-12 d-none d-xl-block">
+               <div class="col-lg-12 d-none d-lg-block">
                   <div class="tp-header-4__menu text-center">
                      <nav>
                         <ul class="d-flex " style="justify-content: space-around;">
@@ -171,7 +171,7 @@
 
 
 
-               <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
+               <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-12 col-12 d-lg-none d-flex justify-content-between ">
 
                   <div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
 

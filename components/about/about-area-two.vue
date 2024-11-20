@@ -14,6 +14,7 @@
             class="tp-project-3__title-box  text-center portfolio-sec-pin">            
             <h5 class="tp-section-title-1 tp_title_anim"> {{ $t("Discover") }}</h5>
             <h3 class="tp-section-title-3 tp_title_anim header semo pb-50"> {{ $t("Clients") }}</h3>
+            
             <img
               class="coma"
               src="/images/identity/coma.png"
@@ -21,9 +22,12 @@
             />
           </div>
               <div class="row row-cols-lg-4 row-cols-md-2 ">
-                <div v-for="(b,i) in brands" :key="i" class="col-xl mb-10">
+                <div v-for="brand in brands" :key="brand.id" class="col-xl mb-10">
+                
                     <div class="tp-hero-2__exp-brand">
-                      <img :src="b" alt="">
+                      <NuxtLink :to="`/clients`">
+                      <img :src="brand.image_path" alt="">
+                    </NuxtLink>
                     </div>
                 </div>
               </div>
@@ -36,10 +40,49 @@
 
 <script setup lang="ts">
 
-const brands = [
-  '/images/brand/logo_01.png',
-  '/images/brand/logo_02.png',
-  '/images/brand/logo_03.png',
+interface BrandDetails {
+  id: number;
+  name: string;
+  cover: string;
+  image: string;
+  url: string;
+  created_at: string;
+  updated_at: string;
+  image_path: string; // Updated to match the exact field in the response
+  cover_path: string;
+  }
 
-]
+
+const brands = ref <BrandDetails[]>([]);
+
+
+
+const brandInfo = async(): Promise<void> => {
+   
+   try {
+     const response = await fetch(`https://api.idadco.com/api/v1/clients`, {
+       method: 'GET',
+       headers: {
+         'Content-Type': 'application/json',
+         'Accept': 'application/json',
+       },
+     });
+
+     const result = await response.json();
+     console.log("API response:", result);  // Log entire response to inspect structure
+     
+     brands.value = Array.isArray(result) ? result : [result];
+     console.log("Team data successfully assigned:", brands.value);  // Confirm data assignment
+   
+   } catch (error) {
+     console.error('Error fetching account details:', error);
+   }
+ };
+
+ onMounted(() => {
+
+  brandInfo();
+
+});
+
 </script>

@@ -130,7 +130,7 @@
             </div>
             <div class="">
               <div class="tp-copyright-4__text text-left">
-                <span><a href="https://tayseeribrahim.com/" >Tayseer Design </a> | Sikka Tech</span>
+                <span><a target="_blank" href="https://productions.naqrah.net" >Naqrah Productions</a></span>
               </div>
             </div>
           </div>

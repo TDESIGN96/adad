@@ -55,7 +55,7 @@
               </div>
             </div>
 
-            <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
+            <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-lg-none d-flex justify-content-between ">
 
               <div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
 
@@ -139,7 +139,7 @@
 
 
 
-            <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-md-none d-flex justify-content-between ">
+            <div class="pl-50 pr-50 col-xl-3 col-lg-6 col-md-6 col-12 d-lg-none d-flex justify-content-between ">
 
 <div class="tp-header-3__right-action d-flex justify-content-between align-items-center ">
 

@@ -17,7 +17,7 @@
                     </nuxt-link>
                   </div>
                </div>
-               <div class="col-xl-7 d-none d-xl-block">
+               <div class="col-md-7 d-none d-md-block">
                   <div class="tp-header-4__menu text-center">
                      <nav>
                         <header-nav />
@@ -76,7 +76,7 @@
                     </nuxt-link>
                   </div>
                </div>
-               <div class="col-xl-7 d-none d-xl-block">
+               <div class="col-md-7 d-none d-md-block">
                   <div class="tp-header-4__menu text-center">
                      <nav>
                         <header-nav />

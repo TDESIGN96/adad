@@ -1,5 +1,9 @@
 <template>
-  <div class="tp-hero-5-area p-relative hero-details-bg services-for-mobile" :style="{ backgroundImage: `url(${backgroundImage})` }" style="overflow-x: hidden;">
+  <div class="tp-hero-5-area p-relative hero-details-bg services-for-mobile" 
+  
+  
+  :style="{ backgroundImage: `url(${backgroundImage})` }" 
+  style="overflow-x: hidden;">
         <div class="tp-hero-5-bdr-left tp-hero-5-ptb bg-mobile">
             <div class="row">
               <div class="col-xxl-1 tp-hero-5-thumb-wrap">
@@ -11,12 +15,12 @@
                   >
                     <h4 class="tp-hero-5-title-bg tp-split-in-right text-black">   
                       
-                      <span>{{ $t(`services_data.${serviceId}.headtitle`) }}</span>
+                      <span>{{ service?.title }}</span>
                       <div class="blog-list__title-box">
                           <div class="blog-list__text-sm mt-20">
-                            <span class="category text-black">{{ $t("Sevices") }}</span>
+                            <span class="category text-black">{{ $t("Services") }}</span>
                             <i class="fa-regular text-black fa-angle-left"></i>
-                            <span class="text-black">{{ $t(`services_data.${serviceId}.headtitle`) }}</span>
+                            <span class="text-black">{{ service?.title }}</span>
                           </div>
                          <h4 class="blog-list__title tp-char-animation"></h4>
                 </div>
@@ -40,26 +44,36 @@
 </template>
 
 <script setup lang="ts">
-import services_data from "@/data/services-data";
-import { useRoute } from 'vue-router';
-import { ref, computed } from 'vue';
-
-
+import { useRoute, useRouter } from "vue-router";
 const route = useRoute();
+const router = useRouter();
+import { computed } from 'vue';
 
-const serviceId = ref(Number(route.params.id));
+// Define IService interface
+interface IService {
+  id: number;
+  image: string;
+  cover: string;
+  title: string;
+  slug: string;
+  lang: string;
+  user_id: number;
+  is_featured: number;
+  created_at: string;
+  updated_at: string;
+  description: string | null;
+  imagePath: string;
+  coverPath: string;
+  sub_services: any[];
+}
 
-const service = computed(() => {
-  const foundService = services_data.find(s => s.id === serviceId.value);
-  console.log('Found Service:', foundService); // Debugging line
-  return foundService;
-});
 
+// Define Props
+const props = defineProps<{
+  service: IService;
+}>();
 
 const backgroundImage = computed(() => {
-  return service.value ? service.value.imgbg[0] : '/default-background.jpg';
+  return props.service.coverPath || "/default-background.jpg";
 });
-console.log(backgroundImage.value);
-console.log('Service Data:', service.value);
-
 </script>

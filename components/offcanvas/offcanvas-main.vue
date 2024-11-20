@@ -10,7 +10,7 @@
          <div class="tp-offcanvas-left">
             <div class="tp-offcanvas-left-wrap d-flex justify-content-between align-items-center">
                
-               <div class="tp-offcanvas-close d-md-none text-end">
+               <div class="tp-offcanvas-close d-lg-none ">
                   <button @click="closeOffcanvas" class="tp-offcanvas-close-btn tp-offcanvas-close-btn">
                      <span class="text">
                         <span>close</span>
