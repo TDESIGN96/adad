@@ -130,7 +130,7 @@
             </div>
             <div class="">
               <div class="tp-copyright-4__text text-left">
-                <span><a target="_blank" href="https://productions.naqrah.net" >Naqrah Productions</a></span>
+                <span>Developed By<a target="_blank" href="https://productions.naqrah.net" >Naqrah</a></span>
               </div>
             </div>
           </div>
