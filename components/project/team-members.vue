@@ -80,9 +80,9 @@ const shouldDisplayMember = (member: TeamMember): boolean => {
 };
 
 const teams = async(): Promise<void> => {
-   
+   const {$axios} = useNuxtApp();
     try {
-      const response = await fetch(`https://api.idadco.com/api/v1/teams`, {
+      const response = await $axios.get(`/teams`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -90,7 +90,7 @@ const teams = async(): Promise<void> => {
         },
       });
 
-      const result = await response.json();
+      const result = await response.data;
       console.log("API response:", result);  // Log entire response to inspect structure
       
       team.value = Array.isArray(result) ? result : [result];

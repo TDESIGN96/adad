@@ -1,5 +1,7 @@
 <template>
+  
   <div>
+    <GlobalPreloader/>
     <back-to-top/>
     <header-one />
     <div

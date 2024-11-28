@@ -1,4 +1,5 @@
 import { createI18n } from 'vue-i18n';
+
 import en from '../locales/lang-en';
 import ar from '../locales/lang-ar';
 import { watch } from 'vue';
@@ -18,7 +19,7 @@ export default defineNuxtPlugin(({ vueApp }) => {
       en,
     },
   });
-
+ 
   // Use i18n in the Vue app
   vueApp.use(i18n);
 

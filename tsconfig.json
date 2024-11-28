@@ -7,6 +7,7 @@
       "@/data/*": ["./data/*"],
       "@/types/*": ["./types/*"],
       "@/utils/*": ["./utils/*"],
+      "#app": ["./node_modules/nuxt/dist/app"],
     }
   }
 }

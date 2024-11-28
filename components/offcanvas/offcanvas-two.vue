@@ -28,7 +28,7 @@
             <div class="tp-main-menu-mobile d-lg-none">
                <nav>
                   <offcanvas-menus />
-                  <select id="locale-select" v-model="$i18n.locale">
+                  <select class="mt-10" id="locale-select" v-model="$i18n.locale">
         <option value="ar">عربي</option>
         <option value="en">
           
@@ -37,6 +37,7 @@
      
       </select>
                </nav>
+               
                
             </div>
            
@@ -64,26 +65,19 @@
                </h3>
                <ul>
                   <li>
-                     <a href="#">
+                     <a href="https://www.instagram.com/idad_com/" target="_blank">
                         <svg-instagram />
                      </a>
                   </li>
                   <li>
-                     <a href="#">
-                        <svg-facebook />
+                     <a href="https://www.facebook.com/profile.php?id=61567014894573&mibextid=ZbWKwL" target="_blank">
+                        <svg-fb />
                      </a>
                   </li>
-                  <li>
-                     <a href="#">
-                        <svg-linkedin />
-                     </a>
-                  </li>
-                  <li>
-                     <a href="#">
-                        <svg-youtube />
-                     </a>
-                  </li>
+                 
+                  
                </ul>
+               
             </div>
          </div>
       </div>

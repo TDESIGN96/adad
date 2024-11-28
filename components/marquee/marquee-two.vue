@@ -21,10 +21,11 @@
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, ref } from 'vue';
 
-const carousel = ref(null);
+const carousel = ref<HTMLElement | null>(null);
 let maxScrollPosition = 100; // Set maximum initial left position
 
 const onScroll = () => {
+  if (!carousel.value) return;
   // Get the total scrollable height of the document
   const scrollTop = window.scrollY;
   const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -34,7 +35,7 @@ const onScroll = () => {
 
   // Move the carousel based on the scroll percentage (reduce left)
   const leftPosition = maxScrollPosition - scrollPercentage * maxScrollPosition;
-  carousel.value.style.left = `${leftPosition}%`;
+  carousel.value.style.left = `${Math.max(0, leftPosition)}%`; // Prevent negative values
 };
 
 onMounted(() => {

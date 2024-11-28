@@ -28,7 +28,10 @@
               >
                 <nuxt-link :href="`/services-details/${service.id}`">
                   <img :src="service.imagePath" alt="" />
-                  <span></span>
+                  <span>
+
+                    
+                  </span>
                   <div class="tp-portfolio-view-btn-3">
                     <span>{{ $t("Discover") }} <br /> {{ $t("More") }}</span>
                   </div>
@@ -70,8 +73,9 @@ const { locale } = useI18n();
 
 // Function to fetch services data from API, considering locale
 const serviceInfo = async (): Promise<void> => {
+  const { $axios } = useNuxtApp();
   try {
-    const response = await fetch(`https://api.idadco.com/api/v1/services?lang=${locale.value}`, {
+    const response = await $axios.get(`/services?lang=${locale.value}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -79,11 +83,9 @@ const serviceInfo = async (): Promise<void> => {
       },
     });
 
-    const result = await response.json();
-    console.log("API response:", result);  // Log entire response to inspect structure
+    const result = await response.data;
     
     service.value = Array.isArray(result) ? result : [result];
-    console.log("Services data successfully assigned:", service.value);  // Confirm data assignment
   } catch (error) {
     console.error('Error fetching service details:', error);
   }

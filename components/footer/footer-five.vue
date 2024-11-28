@@ -130,7 +130,7 @@
             </div>
             <div class="">
               <div class="tp-copyright-4__text text-left">
-                <span>Developed By<a target="_blank" href="https://productions.naqrah.net" >Naqrah</a></span>
+                <span>{{ $t('DevelopedBy') }} <a target="_blank" href="https://productions.naqrah.net" >Naqrah</a></span>
               </div>
             </div>
           </div>
@@ -141,6 +141,7 @@
 
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, nextTick } from 'vue';
+
 
 onMounted(async () => {
   await nextTick(); // Ensure DOM is updated before accessing elements

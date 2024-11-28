@@ -14,7 +14,7 @@ export default {
   More : "المزيد",
   Consultingbtn : "استشارة مجانية",
   Teambig : "فريق <br> العمل",
-  AboutUsbig : "من <br> نحن",
+  AboutUsbig : "من نحن",
   ContactUsbig : "تواصل <br> معنا",
   DiscoverMore: "اكتشف المزيد",
   
@@ -35,6 +35,9 @@ export default {
   
   "submit": "رسالة",
   "send": "إرسال",
+  "Submit" : "رسالة",
+  "Submitting" : "جاري الارسال...",
+  "MSG" : "تم إرسال الرسالة بنجاح!",
   "optionalFieldsNote": "الحقول التي تحتوي على علامة نجمة هي اختيارية."
 },
 
@@ -59,7 +62,7 @@ export default {
   SM : "قسم السوشال ميديا",
   technical: "القسم الفني",
   data_analysis: "خدمات جمع وتحليل البيانات",
-
+  DevelopedBy : "تم التطوير بواسطة",
   Rights : "جميع الحقوق محفوظة",
 
 

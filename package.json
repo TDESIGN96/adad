@@ -13,7 +13,7 @@
     "@emailjs/browser": "^4.3.3",
     "@types/imagesloaded": "^4.1.6",
     "@vueuse/core": "^10.9.0",
-    "axios": "^1.7.7",
+    "axios": "^1.7.8",
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.5",
     "imagesloaded": "^5.0.0",

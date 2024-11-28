@@ -1,5 +1,6 @@
 <template>
-  <div>
+
+  <div >
     <back-to-top/>
     <header-five />
     <div id="smooth-wrapper">
@@ -14,7 +15,17 @@
 </template>
 
 <script setup lang="ts">
+
+
+
 onMounted(() => {
   document.body.classList.add('black-bg-3');
 });
+
+
 </script>
+
+<style>
+
+
+</style>

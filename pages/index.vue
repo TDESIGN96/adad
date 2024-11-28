@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <nuxt-layout name="layout-six">
 
      <!-- hero banner -->

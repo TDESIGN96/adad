@@ -1,5 +1,7 @@
 <template>
+  
   <div>
+    
     <nuxt-layout name="layout-one">
       <!-- Hero banner -->
       <hero-banner-five />
@@ -60,17 +62,19 @@ import { ref, onMounted } from "vue";
 useSeoMeta({ title: "منصة اعداد" });
 definePageMeta({ layout: false });
 
+
 import { buttonAnimation } from "@/utils/buttonAnimation";
 const { servicesPanel } = usePinPanel();
 const aboutData = ref(null);
 
 onMounted(async () => {
+  const { $axios } = useNuxtApp();
   try {
-    const response = await fetch("https://api.idadco.com/api/v1/about-us");
-    if (!response.ok) {
-      throw new Error(`API error: ${response.status}`);
+    const response = await $axios.get("/about-us");
+    if (!response) {
+      throw new Error(`API error: ${response}`);
     }
-    aboutData.value = await response.json();
+    aboutData.value = await response.data;
 
     // Initialize animations
     setTimeout(() => {

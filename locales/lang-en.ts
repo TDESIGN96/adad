@@ -67,6 +67,9 @@ export default {
     },
     "submit": "Message",
     "send": "Send",
+    "Submit" : "Submit",
+    "Submitting" : "Submitting...",
+    "MSG" : "Form submitted successfully!",
     "optionalFieldsNote": "Fields marked with an asterisk are optional."
   },
   /*********Services *********/
@@ -77,7 +80,7 @@ export default {
   SM: "Social Media Department",
   technical: "Technical Department",
   data_analysis: "Data Collection and Analysis Services",
-
+  DevelopedBy : "Developed By",
   Rights : "All Rights Reserved",
 
 

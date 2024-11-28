@@ -58,7 +58,6 @@ const fetchService = async () => {
     if (!response.ok) {
       throw new Error("Failed to fetch service data");
     }
-    console.log("Route ID:", serviceRouteId.value);
     const result: IService = await response.json();
     service.value = result;
 

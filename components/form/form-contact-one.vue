@@ -23,7 +23,7 @@
       </div>
       <div class="col-xl-6 col-lg-4 mb-50">
         <div class="tp-contact-2__input">
-          <input class="input-field" type="text" v-model="phone_number" :placeholder="$t('form.placeholders.phone')" />
+          <input class="input-field" type="text" inputmode="tel" pattern="[0-9]*" v-model="phone_number" :placeholder="$t('form.placeholders.phone')" />
           <span class="focus-border"></span>
         </div>
       </div>
@@ -55,14 +55,14 @@
             <div class="parallax-element">
 
               <button class="tp-btn-pink-large" type="submit" :disabled="isLoading">
-                <span :data-hover="isLoading ? 'Submitting' : $t('form.send')">
-                  {{ isLoading ? 'Submitting...' : $t('form.send') }}
+                <span :data-hover="isLoading ? $t('form.send') : $t('form.submit')">
+                  {{ isLoading ? $t('form.Submitting') : $t('form.send') }}
                 </span>
               </button>
 
 
             </div>
-            <span>{{FormMsg}}</span>
+            <span>{{ FormMsg }}</span>
 
           </div>
         </div>
@@ -143,7 +143,6 @@
   // Handlers
   const changeHandler = (selectedOption: { value: number; text: string }) => {
   service_id.value = selectedOption.value;
-  console.log("Selected service ID:", service_id.value);
 };
 
 
@@ -171,12 +170,11 @@
       });
 
 
-      console.log(service_id.value);
       if (response.ok) {
 
         successMessage.value = 'True';
 
-        FormMsg.value = "Form submitted successfully!";
+        FormMsg.value = t('form.MSG');
       } else {
         const result = await response.json();
 
@@ -214,10 +212,8 @@
       });
 
       const result = await response.json();
-      console.log("API response:", result); // Log entire response to inspect structure
       const currentLang = locale.value;
       service.value = Array.isArray(result) ? result : [result];
-      console.log("Services data successfully assigned:", service.value); // Confirm data assignment
 
       // Extract only the IDs and titles
       service.value = result
@@ -226,7 +222,6 @@
         id: item.id,
         title: item.title,
       }));
-      console.log("Extracted service info (id and title):", serviceInfo);
     } catch (error) {
       console.error('Error fetching service details:', error);
     }

@@ -38,8 +38,11 @@
 
 <script setup lang="ts">
 import { computed, defineProps } from "vue";
+
 import { useI18n } from 'vue-i18n';
+
 const { locale } = useI18n();
+
 defineProps({
   vision_description: {
     type: String,

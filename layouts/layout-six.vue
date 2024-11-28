@@ -1,4 +1,5 @@
 <template>
+    <GlobalPreloader />
   <div>
     <back-to-top/>
     <header-five :style_2="headerStyle" />

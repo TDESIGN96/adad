@@ -58,9 +58,9 @@ const brands = ref <BrandDetails[]>([]);
 
 
 const brandInfo = async(): Promise<void> => {
-   
+   const { $axios} = useNuxtApp();
    try {
-     const response = await fetch(`https://api.idadco.com/api/v1/clients`, {
+     const response = await $axios.get(`/clients`, {
        method: 'GET',
        headers: {
          'Content-Type': 'application/json',
@@ -68,11 +68,9 @@ const brandInfo = async(): Promise<void> => {
        },
      });
 
-     const result = await response.json();
-     console.log("API response:", result);  // Log entire response to inspect structure
+     const result = await response.data;
      
      brands.value = Array.isArray(result) ? result : [result];
-     console.log("Team data successfully assigned:", brands.value);  // Confirm data assignment
    
    } catch (error) {
      console.error('Error fetching account details:', error);

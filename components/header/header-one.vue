@@ -49,6 +49,7 @@
           English</option>
      
       </select>
+      
     </form>
 
                 </div>
@@ -185,6 +186,21 @@
 </template>
 
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+import { watch } from 'vue';
+import { useState } from '#app';
+const { locale } = useI18n(); // Access the locale from vue-i18n
+const isLoading = useState<boolean>('isLoading'); // Preloader state
+
+// Watch for changes in the locale
+watch(locale, async (newLocale, oldLocale) => {
+  if (newLocale !== oldLocale) {
+    isLoading.value = true; // Show preloader
+    await new Promise((resolve) => setTimeout(resolve, 500)); // Optional delay
+    isLoading.value = false; // Hide preloader
+  }
+});
+
   const {
     sticky,
     isStickyVisible
