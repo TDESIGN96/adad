@@ -3,7 +3,7 @@
 
 
     <nuxt-layout>
-      
+      <GlobalPreloader />
       <nuxt-page />
     </nuxt-layout>
 
