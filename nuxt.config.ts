@@ -25,7 +25,8 @@ export default defineNuxtConfig({
     "@/assets/css/style-en.scss",
   ],
   plugins: [
-    '~/plugins/i18n.ts', // Register the i18n plugin
+    '~/plugins/i18n.ts',
+     // Register the i18n plugin
   ],
   
 
