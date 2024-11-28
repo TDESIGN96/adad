@@ -80,10 +80,8 @@ const serviceInfo = async (): Promise<void> => {
     });
 
     const result = await response.json();
-    console.log("API response:", result);  // Log entire response to inspect structure
     
     service.value = Array.isArray(result) ? result : [result];
-    console.log("Services data successfully assigned:", service.value);  // Confirm data assignment
   } catch (error) {
     console.error('Error fetching service details:', error);
   }

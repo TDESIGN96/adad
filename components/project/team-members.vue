@@ -91,10 +91,8 @@ const teams = async(): Promise<void> => {
       });
 
       const result = await response.data;
-      console.log("API response:", result);  // Log entire response to inspect structure
       
       team.value = Array.isArray(result) ? result : [result];
-      console.log("Team data successfully assigned:", team.value);  // Confirm data assignment
     
     } catch (error) {
       console.error('Error fetching account details:', error);
